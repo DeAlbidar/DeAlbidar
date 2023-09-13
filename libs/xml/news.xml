@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<News>
+    <Page Name="World" Code="952">
+        <SubPage Name="Middle East" Code="106"/>
+        <SubPage Name="North America" Code="107"/>
+        <SubPage Name="South America" Code="108"/>
+        <SubPage Name="World" Code="551"/>
+        <SubPage Name="Europe" Code="1451"/>
+        <SubPage Name="Australia" Code="1452"/>
+        <SubPage Name="Asia" Code="1453"/>
+        <SubPage Name="Antarctica" Code="1454"/>
+        <SubPage Name="Africa" Code="1455"/>
+        <SubPage Name="Headline Story" Code="1552"/>
+    </Page>
+    <Page Name="News" Code="953">
+        <SubPage Name="Politics" Code="109"/>
+        <SubPage Name="Business" Code="110"/>
+        <SubPage Name="Tech-Science" Code="111"/>
+        <SubPage Name="Lifestyle" Code="112"/>
+        <SubPage Name="Local News" Code="1053"/>
+        <SubPage Name="Headline Story" Code="1056"/>
+    </Page>
+    <Page Name="Sport" Code="954">
+        <SubPage Name="American Football" Code="113"/>
+        <SubPage Name="Soccer" Code="114"/>
+        <SubPage Name="Basketball" Code="115"/>
+        <SubPage Name="Formula-1" Code="116"/>
+        <SubPage Name="Tennis" Code="117"/>
+        <SubPage Name="Sport" Code="603"/>
+        <SubPage Name="Football" Code="1551"/>
+        <SubPage Name="Headline Story" Code="1553"/>
+    </Page>
+    <Page Name="Health" Code="955">
+        <SubPage Name="Health Home" Code="118"/>
+        <SubPage Name="Men's Health" Code="119"/>
+        <SubPage Name="Women's Health" Code="120"/>
+        <SubPage Name="Children's Health" Code="121"/>
+        <SubPage Name="Alternative Medicine" Code="122"/>
+        <SubPage Name="Nutrition" Code="123"/>
+        <SubPage Name="Health" Code="604"/>
+        <SubPage Name="Headline Story" Code="1554"/>
+    </Page>
+    <Page Name="Travel" Code="956">
+        <SubPage Name="Destinations" Code="124"/>
+        <SubPage Name="Types Of Trip" Code="125"/>
+        <SubPage Name="National Parks" Code="126"/>
+        <SubPage Name="Hotels" Code="127"/>
+        <SubPage Name="Food &amp; Drinks" Code="128"/>
+        <SubPage Name="Travel" Code="605"/>
+        <SubPage Name="Headline Story" Code="1555"/>
+    </Page>
+    <Page Name="Entertainment" Code="957">
+        <SubPage Name="Music &amp; Opera" Code="129"/>
+        <SubPage Name="Art &amp; Design" Code="130"/>
+        <SubPage Name="Theatre &amp; Dance" Code="131"/>
+        <SubPage Name="Celebrity &amp; Film" Code="132"/>
+        <SubPage Name="Art &amp; Entertainment" Code="606"/>
+        <SubPage Name="Headline Story" Code="1556"/>
+    </Page>
+    <Page Name="Environment" Code="958">
+        <SubPage Name="Environment" Code="607"/>
+        <SubPage Name="Headline Story" Code="1557"/>
+    </Page>
+    <Page Name="Education" Code="1401">
+        <SubPage Name="Education" Code="608"/>
+        <SubPage Name="Headline Story" Code="1558"/>
+    </Page>
+</News>

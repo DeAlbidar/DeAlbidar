@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<News>
+    <Page Name="The Executive" Code="1001">
+        <SubPage Name="The President" Code="101"/>
+        <SubPage Name="The Vice President" Code="102"/>
+        <SubPage Name="Senior Minister" Code="103"/>
+        <SubPage Name="Minister of Education" Code="104"/>
+        <SubPage Name="Minister of Interior" Code="105"/>
+        <SubPage Name="Minister of Local Government and Rural Development" Code="106"/>
+        <SubPage Name="Minister of Women and Children's Affairs" Code="107"/>
+        <SubPage Name="Ministry of Energy and Petroleum" Code="108"/>
+        <SubPage Name="Minister of Finance" Code="109"/>
+        <SubPage Name="Minister of Trade and Industry" Code="110"/>
+        <SubPage Name="Minister of Defence" Code="111"/>
+        <SubPage Name="Minister of Roads and Highways" Code="112"/>
+        <SubPage Name="Minister of Communication" Code="113"/>
+        <SubPage Name="Minister of Health" Code="114"/>
+        <SubPage Name="Minister of Food and Agriculture" Code="115"/>
+        <SubPage Name="Minister of Justice and Attorney-General" Code="116"/>
+        <SubPage Name="Minister of Water Resources, Works and Housing" Code="117"/>
+        <SubPage Name="Minister of Environment Science and Technology" Code="118"/>
+        <SubPage Name="Minister of Lands and Natural Resources" Code="119"/>
+        <SubPage Name="Minister of Transport" Code="120"/>
+        <SubPage Name="Minister of Employment and Social Welfare" Code="121"/>
+        <SubPage Name="Minister of Foreign Affairs and Regional Integration" Code="122"/>
+        <SubPage Name="Minister of Fisheries and Aquaculture Development" Code="123"/>
+        <SubPage Name="Minister of Chieftaincy and Traditional Affairs" Code="124"/>
+        <SubPage Name="Minister of Youth and Sports" Code="125"/>
+        <SubPage Name="Minister of Tourism, Culture and Creative Arts" Code="126"/>
+        <SubPage Name="Members Of Council Of State" Code="127"/>
+        <SubPage Name="Ministers of State" Code="128"/>
+        <SubPage Name="Deputy Minister of Education" Code="129"/>
+        <SubPage Name="Deputy Minister of Interior" Code="130"/>
+        <SubPage Name="Deputy Minister of Local Government and Rural Development" Code="131"/>
+        <SubPage Name="Deputy Minister of Women and Children's Affairs" Code="132"/>
+        <SubPage Name="Deputy Ministry of Energy and Petroleum" Code="133"/>
+        <SubPage Name="Deputy Minister of Finance" Code="134"/>
+        <SubPage Name="Deputy Minister of Trade and Industry" Code="135"/>
+        <SubPage Name="Deputy Minister of Defence" Code="136"/>
+        <SubPage Name="Deputy Minister of Roads and Highways" Code="137"/>
+        <SubPage Name="Deputy Minister of Communication" Code="138"/>
+        <SubPage Name="Deputy Minister of Health" Code="139"/>
+        <SubPage Name="Deputy Minister of Food and Agriculture" Code="140"/>
+        <SubPage Name="Deputy Minister of Justice and Attorney-General" Code="141"/>
+        <SubPage Name="Deputy Minister of Water Resources, Works and Housing" Code="142"/>
+        <SubPage Name="Deputy Minister of Environment Science and Technology" Code="143"/>
+        <SubPage Name="Deputy Minister of Lands and Natural Resources" Code="144"/>
+        <SubPage Name="Deputy Minister of Transport" Code="145"/>
+        <SubPage Name="Deputy Minister of Employment and Social Welfare" Code="146"/>
+        <SubPage Name="Deputy Minister of Foreign Affairs and Regional Integration" Code="147"/>
+        <SubPage Name="Deputy Minister of Fisheries and Aquaculture Development" Code="148"/>
+        <SubPage Name="Deputy Minister of Chieftaincy and Traditional Affairs" Code="149"/>
+        <SubPage Name="Deputy Minister of Youth and Sports" Code="150"/>
+        <SubPage Name="Deputy Minister of Tourism, Culture and Creative Arts" Code="151"/>
+        <SubPage Name="Eastern Regional Minister" Code="152"/>
+        <SubPage Name="Ashanti Regional Minister" Code="153"/>
+        <SubPage Name="Central Regional Minister" Code="154"/>
+        <SubPage Name="Brong Ahafo Regional Minister" Code="155"/>
+        <SubPage Name="Upper West Regional Minister" Code="156"/>
+        <SubPage Name="Greater Accra Regional Minister" Code="157"/>
+        <SubPage Name="Volta Regional Minister" Code="158"/>
+        <SubPage Name="Western Regional Minister" Code="159"/>
+        <SubPage Name="Northern Regional Minister" Code="160"/>
+        <SubPage Name="Upper East Regional Minister" Code="161"/>
+    </Page>
+    <Page Name="The Judiciary" Code="1002">
+        <SubPage Name="The Constitutional Court" Code="201"/>
+        <SubPage Name="Supreme Court of Appeal" Code="202"/>
+        <SubPage Name="High Court" Code="203"/>
+        <SubPage Name="Magistrates Courts" Code="204"/>
+        <SubPage Name="Small Claims Courts" Code="205"/>
+        <SubPage Name="Electoral Court" Code="206"/>
+        <SubPage Name="Labour Court" Code="207"/>
+        <SubPage Name="Land Claims Courts" Code="208"/>
+    </Page>
+    <Page Name="The Legislature" Code="1003">
+        <SubPage Name="Speaker of Parliament" Code="301"/>
+        <SubPage Name="First Deputy Speaker" Code="302"/>
+        <SubPage Name="Second Deputy Speaker" Code="303"/>
+        <SubPage Name="Majority Leader" Code="304"/>
+        <SubPage Name="Deputy Majority Leader" Code="305"/>
+        <SubPage Name="Minority Leader" Code="306"/>
+        <SubPage Name="Deputy Minority Leader" Code="307"/>
+        <SubPage Name="Majority Chief Whip" Code="308"/>
+        <SubPage Name="First Dep. Majority Whip" Code="309"/>
+        <SubPage Name="Second Dep. Majority Whip" Code="310"/>
+        <SubPage Name="Minority Chief Whip" Code="311"/>
+        <SubPage Name="First Dep. Minority Whip" Code="312"/>
+        <SubPage Name="Second Dep. Minority Whip" Code="313"/>
+        <SubPage Name="Member of Parliament" Code="314"/>
+    </Page>
+    <Page Name="Political Parties" Code="1004">
+        <SubPage Name="Convention People's Party (CPP)" Code="401"/>
+        <SubPage Name="Democratic People's Party (DPP)" Code="402"/>
+        <SubPage Name="Democratic Freedom Party (DFP)" Code="403"/>
+        <SubPage Name="Eagle Party (EP)" Code="404"/>
+        <SubPage Name="Ghana Democratic Republican Party" Code="405"/>
+        <SubPage Name="Great Consolidated Popular Party (GCPP)" Code="406"/>
+        <SubPage Name="Ghana National Party (GNP)" Code="407"/>
+        <SubPage Name="Ghana Freedom Party (GFP)" Code="408"/>
+        <SubPage Name="Liberal Party of Ghana" Code="409"/>
+        <SubPage Name="National Democratic Congress (NDC)" Code="410"/>
+        <SubPage Name="New Patriotic Party (NPP)" Code="411"/>
+        <SubPage Name="New Vision Party" Code="412"/>
+        <SubPage Name="People’s National Convention(PNC)" Code="413"/>
+        <SubPage Name="Progressive People's Party" Code="414"/>
+        <SubPage Name="Reformed Patriotic Democrats" Code="415"/>
+        <SubPage Name="UPP" Code="416"/>
+        <SubPage Name="United Love Party" Code="417"/>
+        <SubPage Name="United Front Party" Code="418"/>
+        <SubPage Name="United Development System Party" Code="419"/>
+        <SubPage Name="United Renaissance Party" Code="420"/>
+        <SubPage Name="United Ghana Movement" Code="421"/>
+        <SubPage Name="Yes People's Party" Code="422"/>
+        <SubPage Name="All People's Congress" Code="423"/>
+        <SubPage Name="National Democratic Party" Code="424"/>
+    </Page>
+    <Page Name="Political Parties FlagBearer" Code="1005">
+        <SubPage Name="Convention People's Party (CPP)" Code="501"/>
+        <SubPage Name="Democratic People's Party (DPP)" Code="502"/>
+        <SubPage Name="Democratic Freedom Party (DFP)" Code="503"/>
+        <SubPage Name="Eagle Party (EP)" Code="504"/>
+        <SubPage Name="Ghana Democratic Republican Party" Code="505"/>
+        <SubPage Name="Great Consolidated Popular Party (GCPP)" Code="506"/>
+        <SubPage Name="Ghana National Party (GNP)" Code="507"/>
+        <SubPage Name="Ghana Freedom Party (GFP)" Code="508"/>
+        <SubPage Name="Liberal Party of Ghana" Code="509"/>
+        <SubPage Name="National Democratic Congress (NDC)" Code="510"/>
+        <SubPage Name="New Patriotic Party (NPP)" Code="511"/>
+        <SubPage Name="New Vision Party" Code="512"/>
+        <SubPage Name="People’s National Convention(PNC)" Code="513"/>
+        <SubPage Name="Progressive People's Party" Code="514"/>
+        <SubPage Name="Reformed Patriotic Democrats" Code="515"/>
+        <SubPage Name="UPP" Code="516"/>
+        <SubPage Name="United Love Party" Code="517"/>
+        <SubPage Name="United Front Party" Code="518"/>
+        <SubPage Name="United Development System Party" Code="519"/>
+        <SubPage Name="United Renaissance Party" Code="520"/>
+        <SubPage Name="United Ghana Movement" Code="521"/>
+        <SubPage Name="Yes People's Party" Code="522"/>
+        <SubPage Name="All People's Congress" Code="523"/>
+        <SubPage Name="National Democratic Party" Code="524"/>
+    </Page>
+</News>

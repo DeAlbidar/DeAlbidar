@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<WatchGhana>
+    <Position Name="Editor" Code="1">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="Corespondent" Code="2">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="Executive VP of Programming" Code="3">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="Senior Staff Editor" Code="4">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="Digital Correspondent &amp; Editor-at-Large" Code="5">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="News Editor" Code="6">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="Senior Enterprise Reporter" Code="7">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="National Politics Reporter" Code="8">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="International Affairs Reporter" Code="9">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+    <Position Name="Senior Correspondent" Code="10">
+        <Details>
+            Reports on politics and on a wide range of general news stories for programs across the network from breaking news to national stories.
+        </Details>
+    </Position>
+</WatchGhana>

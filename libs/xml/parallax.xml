@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Parallax>
+    <Page Name="Home" Code="951">
+        <caption1 Name="Get the latest breaking news and top news headlines"/>
+        <caption2 Name="Happening now on 24h News Channel"/>
+        <caption3 Name="No one hurt in North Side blaze"/>
+        <caption4 Name="A fire that broke out Tuesday afternoon in the Park West, forcing residents to evacuate, is under control and no one was hurt."/>
+    </Page>
+    <Page Name="World" Code="952">
+        <caption1 Name="Get the latest breaking news and top news headlines"/>
+        <caption2 Name="24h World News Channel"/>
+        <caption3 Name="Breaking international news and headlines"/>
+        <caption4 Name="Visit 24 News for up-to-the-minute news, breaking news, video, audio and feature stories"/>
+    </Page>
+    <Page Name="News" Code="953">
+        <caption1 Name=""/>
+        <caption2 Name=""/>
+        <caption3 Name=""/>
+        <caption4 Name=""/>
+    </Page>
+    <Page Name="Sport" Code="954">
+        <caption1 Name=""/>
+        <caption2 Name=""/>
+        <caption3 Name=""/>
+        <caption4 Name=""/>
+    </Page>
+    <Page Name="Health" Code="955">
+        <caption1 Name=""/>
+        <caption2 Name=""/>
+        <caption3 Name=""/>
+        <caption4 Name=""/>
+    </Page>
+    <Page Name="Travel" Code="956">
+        <caption1 Name=""/>
+        <caption2 Name=""/>
+        <caption3 Name=""/>
+        <caption4 Name=""/>
+    </Page>
+    <Page Name="Entertainment" Code="957">
+        <caption1 Name=""/>
+        <caption2 Name=""/>
+        <caption3 Name=""/>
+        <caption4 Name=""/>
+    </Page>
+    <Page Name="Environment" Code="958">
+        <caption1 Name=""/>
+        <caption2 Name=""/>
+        <caption3 Name=""/>
+        <caption4 Name=""/>
+    </Page>
+    <Page Name="Education" Code="1401">
+        <caption1 Name=""/>
+        <caption2 Name=""/>
+        <caption3 Name=""/>
+        <caption4 Name=""/>
+    </Page>
+</Parallax>
