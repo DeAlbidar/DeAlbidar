@@ -13,7 +13,8 @@
                             <span>I am a</span>
                             <!-- ROTATING TEXT -->
                             <span class="cd-words-wrapper">
-                                <b class="is-visible">Software Developer.</b>
+                                <b class="is-visible">Software Engineer.</b>
+                                <b class="is-hidden">Software Developer.</b>
                                 <b class="is-hidden">Web Developer.</b>
                                 <b class="is-hidden">App Developer.</b>
                             </span>
@@ -51,10 +52,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="title">
-                                    <a href="<?php echo URL.'index#'; ?>">Business Stratagy</a>
+                                    <a href="<?php echo URL.'index#'; ?>">Coding and Programming</a>
                                 </h4>
-                                <p class="description">I throw myself down among the tall grass by the stream as I
-                                    lie close to the earth.</p>
+                                <p class="description">Proficient in a wide range of programming languages, including Python, Java, PHP, JavaScript, and more, for crafting robust and efficient software solutions.</p>
                                 <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
                             </div>
                         </div>
@@ -70,9 +70,8 @@
                                 <i data-feather="book-open"></i>
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">App Development</a></h4>
-                                <p class="description"> It uses a dictionary of over 200 Latin words, combined with
-                                    a handful of model sentence.</p>
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Mobile App Development</a></h4>
+                                <p class="description">Proficient in developing mobile apps for iOS and Android platforms using languages like Swift, Kotlin, or Flutter.</p>
                                 <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
                             </div>
                         </div>
@@ -88,9 +87,8 @@
                                 <i data-feather="tv"></i>
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">App Development</a></h4>
-                                <p class="description">I throw myself down among the tall grass by the stream as I
-                                    lie close to the earth.</p>
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Web Development</a></h4>
+                                <p class="description">Skilled in web development, creating visually appealing and responsive websites using HTML, CSS, and JavaScript, along with expertise in web frameworks such as React, Angular, or Vue.js.</p>
                                 <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
                             </div>
                         </div>
@@ -98,7 +96,312 @@
                     </div>
                 </div>
                 <!-- End SIngle Service -->
-
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Problem Solving</a></h4>
+                                <p class="description">Strong problem-solving skills to analyze complex issues, break them down, and devise effective solutions through code and software design.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Full Software Development Lifecycle</a></h4>
+                                <p class="description">Extensive experience with the entire software development lifecycle, from requirements gathering and design to development, testing, deployment, and ongoing maintenance.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Algorithm Design</a></h4>
+                                <p class="description">Adept at designing optimized algorithms and data structures to enhance software performance.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Database Management</a></h4>
+                                <p class="description">Experienced in designing, implementing, and maintaining databases, utilizing technologies like SQL, NoSQL, and graph databases.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Version Control</a></h4>
+                                <p class="description">Expertise in using Git and other version control systems to track code changes and collaborate effectively with team members.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Debugging and Testing</a></h4>
+                                <p class="description">Diligent in conducting thorough testing and debugging to ensure software functionality and reliability.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Software Architecture</a></h4>
+                                <p class="description">Capable of designing scalable and maintainable software architecture, making informed technology choices, and defining crucial components.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Continuous Learning</a></h4>
+                                <p class="description">Committed to staying updated with the latest programming languages, tools, and development methodologies to deliver cutting-edge solutions.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Project Management</a></h4>
+                                <p class="description">Proficient in project management principles and agile methodologies, enabling effective coordination with team members and timely project delivery.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Effective Communication</a></h4>
+                                <p class="description">Strong communication skills when discussing project requirements with clients and collaborating with team members.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Security Awareness</a></h4>
+                                <p class="description">Knowledgeable about software security best practices and vulnerabilities to protect user data and ensure software security.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Analytical Thinking</a></h4>
+                                <p class="description">Utilize analytical thinking to understand user requirements and data, making informed decisions throughout the development process.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Customer-Centric Approach</a></h4>
+                                <p class="description">Prioritize meeting the needs of end-users and creating software that delivers an exceptional user experience.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Adaptability</a></h4>
+                                <p class="description">Adaptable to work on diverse projects across different domains, from finance to healthcare to entertainment.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Quality Assurance</a></h4>
+                                <p class="description">Ensure software quality through meticulous code reviews, testing, and continuous improvement efforts.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Ethical Considerations</a></h4>
+                                <p class="description">Mindful of ethical considerations related to software development, including privacy and data protection.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">Documentation</a></h4>
+                                <p class="description">Maintain clear and concise documentation of code and project processes to facilitate knowledge sharing and future reference.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="tv"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="<?php echo URL.'index#'; ?>">UI/UX for Responsive Design</a></h4>
+                                <p class="description">Proficient in designing user interfaces (UI) and user experiences (UX) that are responsive, user-friendly, and visually appealing across various devices and screen sizes.</p>
+                                <a class="read-more-button" href="<?php echo URL.'index#'; ?>"><i class="feather-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <a class="over-link" href="<?php echo URL.'index#'; ?>"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
             </div>
         </div>
     </div>
