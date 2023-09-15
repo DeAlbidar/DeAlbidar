@@ -38,8 +38,8 @@ class Errors extends Controller{
     function index(){
         $this->view->title = 'Page Not Found | DeAlbidar';
         $this->view->description = "";
-        $this->view->url = 'https://www.watchghana.com/errors';
-        $this->view->image = 'https://www.watchghana.com/public/image/banner.jpg';
+        $this->view->url = 'https://www.dealbidar.com/errors';
+        $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'W3 Multimedia Ghana Limited';
         $this->view->keywords = '';    
         $this->view->render('index/index');
