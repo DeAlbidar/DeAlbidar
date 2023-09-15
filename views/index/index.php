@@ -432,15 +432,18 @@
                             <div class="content">
                                 <div class="category-info">
                                     <div class="category-list">
-                                        <a href="javascript:void(0)">Development</a>
+                                        <a href="javascript:void(0)">Design</a>
                                     </div>
                                     <div class="meta">
-                                        <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            600</span>
+                                        <span>
+                                            <a href="javascript:void(0)"><i class="feather-heart"></i></a>
+                                        </span>
                                     </div>
                                 </div>
-                                <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
-                                            class="feather-arrow-up-right"></i></a></h4>
+                                <h4 class="title">
+                                    <a href="javascript:void(0)">UI/UX Design <i class="feather-arrow-up-right"></i>
+                                    </a>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -449,25 +452,24 @@
 
                 <!-- Start Single Portfolio -->
                 <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter1">
                         <div class="inner">
                             <div class="thumbnail">
                                 <a href="javascript:void(0)">
-                                    <img src="<?php echo URL.'public/assets/images/portfolio/portfolio-02.jpg'; ?>" alt="Personal Portfolio Images">
+                                    <img src="<?php echo URL.'public/assets/images/portfolio/portfolio-16.jpg'; ?>" alt="Personal Portfolio Images">
                                 </a>
                             </div>
                             <div class="content">
                                 <div class="category-info">
                                     <div class="category-list">
-                                        <a href="javascript:void(0)">Application</a>
+                                        <a href="javascript:void(0)">Design</a>
                                     </div>
                                     <div class="meta">
                                         <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            750</span>
+                                            </span>
                                     </div>
                                 </div>
-                                <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & app
-                                        maintain<i class="feather-arrow-up-right"></i></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)">Web Design<i class="feather-arrow-up-right"></i></a></h4>
                             </div>
                         </div>
                     </div>
@@ -476,7 +478,7 @@
 
                 <!-- Start Single Portfolio -->
                 <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter2">
                         <div class="inner">
                             <div class="thumbnail">
                                 <a href="javascript:void(0)">
@@ -486,15 +488,14 @@
                             <div class="content">
                                 <div class="category-info">
                                     <div class="category-list">
-                                        <a href="javascript:void(0)">Photoshop</a>
+                                        <a href="javascript:void(0)">Design</a>
                                     </div>
                                     <div class="meta">
                                         <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            630</span>
+                                            </span>
                                     </div>
                                 </div>
-                                <h4 class="title"><a href="javascript:void(0)">Logo design creativity & Application
-                                        <i class="feather-arrow-up-right"></i></a></h4>
+                                <h4 class="title"><a href="javascript:void(0)">Mobile App Design<i class="feather-arrow-up-right"></i></a></h4>
                             </div>
                         </div>
                     </div>
@@ -530,7 +531,7 @@
                             <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="<?php echo URL.'index#experience'; ?>" role="tab" aria-controls="experience" aria-selected="false">experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="interview-tab" data-bs-toggle="tab" href="<?php echo URL.'index#interview'; ?>" role="tab" aria-controls="interview" aria-selected="false">interview</a>
+                            <a class="nav-link" id="interview-tab" data-bs-toggle="tab" href="<?php echo URL.'index#interview'; ?>" role="tab" aria-controls="interview" aria-selected="false">Projects</a>
                         </li>
                     </ul>
 
@@ -543,7 +544,7 @@
                                     <!-- Start Skill List Area  -->
                                     <div class="col-lg-6 col-md-12 col-12">
                                         <div class="content">
-                                            <span class="subtitle">2007 - 2010</span>
+                                            <span class="subtitle">2019 - 2023</span>
                                             <h4 class="maintitle">Education Quality</h4>
                                             <div class="experience-list">
 
@@ -552,17 +553,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Personal Portfolio April Fools</h4>
-                                                                <span>University of DVI (1997 - 2001)</span>
+                                                                <h4>BSc (Hons) Information Technology </h4>
+                                                                <span>Regent University College of Science and Technology (2019 - 2023)</span>
                                                             </div>
                                                             <div class="date-of-time">
                                                                 <span>4.30/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">The education should be very
-                                                            interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -572,37 +570,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4> Examples Of Personal Portfolio</h4>
-                                                                <span>College of Studies (2000 - 2002)</span>
+                                                                <h4>Routing & Switching Certificate</h4>
+                                                                <span>Huawei Certification (2021)</span>
                                                             </div>
                                                             <div class="date-of-time">
                                                                 <span>4.50/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Maecenas finibus nec sem ut
-                                                            imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
-                                                    </div>
-                                                </div>
-                                                <!-- End Single List  -->
-
-                                                <!-- Start Single List  -->
-                                                <div class="resume-single-list">
-                                                    <div class="inner">
-                                                        <div class="heading">
-                                                            <div class="title">
-                                                                <h4>Tips For Personal Portfolio</h4>
-                                                                <span>University of Studies (1997 - 2001)</span>
-                                                            </div>
-                                                            <div class="date-of-time">
-                                                                <span>4.80/5</span>
-                                                            </div>
-                                                        </div>
-                                                        <p class="description"> If you are going to use a passage.
-                                                            Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -615,8 +590,8 @@
                                     <!-- Start Skill List Area 2nd  -->
                                     <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
                                         <div class="content">
-                                            <span class="subtitle">2007 - 2010</span>
-                                            <h4 class="maintitle">Job Experience</h4>
+                                            <span class="subtitle">2008 - 2016</span>
+                                            <h4 class="maintitle">Education Quality</h4>
                                             <div class="experience-list">
 
                                                 <!-- Start Single List  -->
@@ -624,17 +599,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Diploma in Web Development</h4>
-                                                                <span>BSE In CSE (2004 - 2008)</span>
+                                                                <h4>Diploma In Information Systems Management</h4>
+                                                                <span>Aptech Computer Education (2016 - 2017)</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.70/5</span>
+                                                                <span>4.50/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Contrary to popular belief. Ut
-                                                            tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -644,38 +616,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>The Personal Portfolio Mystery</h4>
-                                                                <span>Job at Rainbow-Themes (2008 - 2016)</span>
+                                                                <h4>Computer Software Certificate</h4>
+                                                                <span>Broadwater Computer School (2008 - 2008)</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.95/5</span>
+                                                                <span>4.80/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                            tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
-                                                    </div>
-                                                </div>
-                                                <!-- End Single List  -->
-
-                                                <!-- Start Single List  -->
-                                                <div class="resume-single-list">
-                                                    <div class="inner">
-                                                        <div class="heading">
-                                                            <div class="title">
-                                                                <h4>Diploma in Computer Science</h4>
-                                                                <span>Works at Plugin Development (2016 -
-                                                                    2020)</span>
-                                                            </div>
-                                                            <div class="date-of-time">
-                                                                <span>5.00/5</span>
-                                                            </div>
-                                                        </div>
-                                                        <p class="description">Maecenas finibus nec sem ut
-                                                            imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"> </p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -828,8 +776,8 @@
                                     <!-- Start Skill List Area  -->
                                     <div class="col-lg-6 col-md-12 col-12">
                                         <div class="content">
-                                            <span class="subtitle">2007 - 2010</span>
-                                            <h4 class="maintitle">Education Quality</h4>
+                                            <span class="subtitle">2022 - current</span>
+                                            <h4 class="maintitle">Job Experience</h4>
                                             <div class="experience-list">
 
                                                 <!-- Start Single List  -->
@@ -837,17 +785,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Personal Portfolio April Fools</h4>
-                                                                <span>University of DVI (1997 - 2001)</span>
+                                                                <h4>W3 Multimedia Ghana Limited</h4>
+                                                                <span>Software Engineer (2023 - current)</span>
                                                             </div>
                                                             <div class="date-of-time">
                                                                 <span>4.30/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">The education should be very
-                                                            interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -857,37 +802,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4> Examples Of Personal Portfolio</h4>
-                                                                <span>College of Studies (2000 - 2002)</span>
+                                                                <h4> Holy Trinity Medical Centre</h4>
+                                                                <span>Software Engineer (2022 - 2023)</span>
                                                             </div>
                                                             <div class="date-of-time">
                                                                 <span>4.50/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Maecenas finibus nec sem ut
-                                                            imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
-                                                    </div>
-                                                </div>
-                                                <!-- End Single List  -->
-
-                                                <!-- Start Single List  -->
-                                                <div class="resume-single-list">
-                                                    <div class="inner">
-                                                        <div class="heading">
-                                                            <div class="title">
-                                                                <h4>Tips For Personal Portfolio</h4>
-                                                                <span>University of Studies (1997 - 2001)</span>
-                                                            </div>
-                                                            <div class="date-of-time">
-                                                                <span>4.80/5</span>
-                                                            </div>
-                                                        </div>
-                                                        <p class="description"> If you are going to use a passage.
-                                                            Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -900,7 +822,7 @@
                                     <!-- Start Skill List Area 2nd  -->
                                     <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
                                         <div class="content">
-                                            <span class="subtitle">2007 - 2010</span>
+                                            <span class="subtitle">2016 - 2022</span>
                                             <h4 class="maintitle">Job Experience</h4>
                                             <div class="experience-list">
 
@@ -909,17 +831,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Diploma in Web Development</h4>
-                                                                <span>BSE In CSE (2004 - 2008)</span>
+                                                                <h4>Holy Trinity SPA & Health Farm</h4>
+                                                                <span>Software Engineer (2022 - 2023)</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.70/5</span>
+                                                                <span>4.80/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Contrary to popular belief. Ut
-                                                            tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"> </p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -929,38 +848,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>The Personal Portfolio Mystery</h4>
-                                                                <span>Job at Rainbow-Themes (2008 - 2016)</span>
+                                                                <h4>GiantGas Ghana Limited</h4>
+                                                                <span>Software Engineer (2021)</span>
                                                             </div>
                                                             <div class="date-of-time">
                                                                 <span>4.95/5</span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                            tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
-                                                    </div>
-                                                </div>
-                                                <!-- End Single List  -->
-
-                                                <!-- Start Single List  -->
-                                                <div class="resume-single-list">
-                                                    <div class="inner">
-                                                        <div class="heading">
-                                                            <div class="title">
-                                                                <h4>Diploma in Computer Science</h4>
-                                                                <span>Works at Plugin Development (2016 -
-                                                                    2020)</span>
-                                                            </div>
-                                                            <div class="date-of-time">
-                                                                <span>5.00/5</span>
-                                                            </div>
-                                                        </div>
-                                                        <p class="description">Maecenas finibus nec sem ut
-                                                            imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -981,8 +876,8 @@
                                     <!-- Start Skill List Area  -->
                                     <div class="col-lg-6 col-md-12 col-12">
                                         <div class="content">
-                                            <span class="subtitle">2007 - 2010</span>
-                                            <h4 class="maintitle">Company Experience</h4>
+                                            <span class="subtitle">2016 - Current</span>
+                                            <h4 class="maintitle">Web Development Projects</h4>
                                             <div class="experience-list">
 
                                                 <!-- Start Single List  -->
@@ -990,57 +885,48 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Personal Portfolio April Fools</h4>
-                                                                <span>University of DVI (1997 - 2001)</span>
+                                                                <h4>Maiden Energy</h4>
+                                                                <span>Website</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.30/5</span>
+                                                                <span><a href="https://www.maiden-energy.com" target="_blank">Visit</a></span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">The education should be very
-                                                            interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
 
                                                 <!-- Start Single List  -->
-                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list">
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="resume-single-list">
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4> Examples Of Personal Portfolio</h4>
-                                                                <span>College of Studies (2000 - 2002)</span>
+                                                                <h4>Pin Building Services</h4>
+                                                                <span>Website</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.50/5</span>
+                                                                <span><a href="https://www.pinbuildingservices.co.uk/" target="_blank">Visit</a></span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Maecenas finibus nec sem ut
-                                                            imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
 
                                                 <!-- Start Single List  -->
-                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="resume-single-list">
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="resume-single-list">
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Tips For Personal Portfolio</h4>
-                                                                <span>University of Studies (1997 - 2001)</span>
+                                                                <h4>Destiny Apostolic Church International</h4>
+                                                                <span>Website</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.80/5</span>
+                                                                <span><a href="https://www.daci.org.uk/" target="_blank">Visit</a></span>
                                                             </div>
                                                         </div>
-                                                        <p class="description"> If you are going to use a passage.
-                                                            Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -1053,8 +939,8 @@
                                     <!-- Start Skill List Area 2nd  -->
                                     <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
                                         <div class="content">
-                                            <span class="subtitle">2007 - 2010</span>
-                                            <h4 class="maintitle">Job Experience</h4>
+                                            <span class="subtitle">2016 - Current</span>
+                                            <h4 class="maintitle">Mobile Application Development</h4>
                                             <div class="experience-list">
 
                                                 <!-- Start Single List  -->
@@ -1062,17 +948,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Diploma in Web Development</h4>
-                                                                <span>BSE In CSE (2004 - 2008)</span>
+                                                                <h4>Heaven Home</h4>
+                                                                <span>Android Application</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.70/5</span>
+                                                                <span><a href="https://play.google.com/store/apps/details?id=com.innink.heaven_home" target="_blank">Visit</a></span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Contrary to popular belief. Ut
-                                                            tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -1082,17 +965,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>The Personal Portfolio Mystery</h4>
-                                                                <span>Job at Rainbow-Themes (2008 - 2016)</span>
+                                                                <h4>Ainur Industry</h4>
+                                                                <span>Android Application</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>4.95/5</span>
+                                                                <span><a href="https://play.google.com/store/apps/details?id=com.innink.ainur" target="_blank">Visit</a></span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                            tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -1102,18 +982,14 @@
                                                     <div class="inner">
                                                         <div class="heading">
                                                             <div class="title">
-                                                                <h4>Diploma in Computer Science</h4>
-                                                                <span>Works at Plugin Development (2016 -
-                                                                    2020)</span>
+                                                                <h4>Destiny Apostolic Church UK</h4>
+                                                                <span>Android Application</span>
                                                             </div>
                                                             <div class="date-of-time">
-                                                                <span>5.00/5</span>
+                                                                <span><a href="https://play.google.com/store/apps/details?id=com.innink.destinyapostolicradio" target="_blank">Visit</a></span>
                                                             </div>
                                                         </div>
-                                                        <p class="description">Maecenas finibus nec sem ut
-                                                            imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                            mauris hendrerit ante.</p>
+                                                        <p class="description"></p>
                                                     </div>
                                                 </div>
                                                 <!-- End Single List  -->
@@ -1133,6 +1009,7 @@
     </div>
     <!-- End Resume Area -->
     <!-- Start Client Area -->
+    <!--
     <div class="rn-client-area rn-section-gap section-separator" id="clients">
         <div class="container">
             <div class="row">
@@ -1191,7 +1068,7 @@
                                 <div class="tab-pane fade" id="v-pills-Javascript" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                     <div class="client-card">
 
-                                        <!-- Start Single Brand  -->
+                                        
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1205,9 +1082,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
+                                        
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1221,9 +1098,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                       
 
-                                        <!-- Start Single Brand  -->
+                                       
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1237,9 +1114,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
+                                        
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1253,9 +1130,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1269,9 +1145,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1285,9 +1160,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1301,9 +1175,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1317,9 +1190,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1333,9 +1205,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1349,9 +1220,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1365,9 +1235,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1381,7 +1250,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
                                     </div>
                                 </div>
@@ -1389,7 +1258,6 @@
                                 <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                     <div class="client-card">
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1403,9 +1271,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1419,9 +1286,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1435,9 +1301,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1451,9 +1316,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1467,9 +1331,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1483,9 +1346,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1499,9 +1361,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1515,9 +1376,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1531,9 +1391,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1547,9 +1406,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1563,9 +1421,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1578,7 +1435,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
                                     </div>
                                 </div>
@@ -1586,7 +1443,6 @@
                                 <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel" aria-labelledby="v-pills-wordpress-tab">
                                     <div class="client-card">
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1600,9 +1456,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1616,9 +1471,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1632,9 +1486,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1648,9 +1501,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1664,9 +1516,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1680,9 +1531,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1696,9 +1546,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1712,9 +1561,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1728,9 +1576,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1744,9 +1591,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1760,9 +1606,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1776,7 +1621,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
                                     </div>
                                 </div>
@@ -1784,7 +1629,6 @@
                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tabs">
                                     <div class="client-card">
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1798,9 +1642,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1814,9 +1657,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1830,9 +1672,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1846,9 +1687,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1862,9 +1702,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1877,9 +1716,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1893,9 +1731,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1909,9 +1746,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1925,9 +1761,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1941,9 +1776,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1957,9 +1791,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1973,7 +1806,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
                                     </div>
                                 </div>
@@ -1981,7 +1814,6 @@
                                 <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel" aria-labelledby="v-pills-laravel-tabs">
                                     <div class="client-card">
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -1995,9 +1827,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2011,9 +1842,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2027,9 +1857,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2042,9 +1871,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2058,9 +1886,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2074,9 +1901,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2090,9 +1916,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2106,9 +1931,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2122,9 +1946,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2138,9 +1961,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2154,9 +1976,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2170,7 +1991,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
                                     </div>
                                 </div>
@@ -2178,7 +1999,6 @@
                                 <div class="tab-pane fade" id="v-pills-python" role="tabpanel" aria-labelledby="v-pills-python-tabs">
                                     <div class="client-card">
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2192,9 +2012,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2208,9 +2027,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2224,9 +2042,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2240,9 +2057,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2256,9 +2072,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2272,9 +2087,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2288,9 +2102,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2304,9 +2117,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2320,9 +2132,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2336,9 +2147,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2352,9 +2162,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
-                                        <!-- Start Single Brand  -->
                                         <div class="main-content">
                                             <div class="inner text-center">
                                                 <div class="thumbnail">
@@ -2368,7 +2177,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Single Brand  -->
+                                        
 
                                     </div>
                                 </div>
@@ -2380,8 +2189,10 @@
             </div>
         </div>
     </div>
+    -->
     <!-- End client section -->
     <!-- Pricing Area -->
+    <!--
     <div class="rn-pricing-area rn-section-gap section-separator" id="pricing">
         <div class="container">
             <div class="row">
@@ -2397,7 +2208,6 @@
                 </div>
 
                 <div class="col-lg-8 col-xl-7">
-                    <!-- Pricing Area -->
                     <div class="navigation-wrapper">
                         <ul class="nav " id="myTab" role="tablist">
                             <li class="nav-item ">
@@ -2414,7 +2224,6 @@
                         <div class="tab-content" id="myTabContent">
 
                             <div class="tab-pane fade " id="test" role="tabpanel" aria-labelledby="test-tab">
-                                <!-- Pricing Start -->
                                 <div class="rn-pricing">
                                     <div class="pricing-header">
                                         <div class="header-left">
@@ -2502,11 +2311,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End -->
                             </div>
 
                             <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <!-- Pricing Start -->
                                 <div class="rn-pricing">
                                     <div class="pricing-header">
                                         <div class="header-left">
@@ -2594,11 +2401,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End -->
                             </div>
 
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                <!-- Pricing Start -->
                                 <div class="rn-pricing">
                                     <div class="pricing-header">
                                         <div class="header-left">
@@ -2686,17 +2491,17 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End -->
                             </div>
                         </div>
                     </div>
-                    <!-- End -->
                 </div>
             </div>
         </div>
     </div>
+    -->
     <!-- pricing area -->
     <!-- Start News Area -->
+    <!--
     <div class="rn-blog-area rn-section-gap section-separator" id="blog">
         <div class="container">
             <div class="row">
@@ -2709,7 +2514,6 @@
             </div>
             <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
 
-                <!-- Start Single blog -->
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
                     <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
                         <div class="inner">
@@ -2733,9 +2537,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- End Single blog -->
 
-                <!-- Start Single blog -->
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
                     <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
                         <div class="inner">
@@ -2759,9 +2561,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- End Single blog -->
 
-                <!-- Start Single blog -->
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
                     <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
                         <div class="inner">
@@ -2785,11 +2585,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- End Single blog -->
 
             </div>
         </div>
     </div>
+    -->
     <!-- ENd Mews Area -->
     <!-- Start Contact section -->
     <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
@@ -2798,7 +2598,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center">
                         <span class="subtitle">Contact</span>
-                        <h2 class="title">Contact With Me</h2>
+                        <h2 class="title">Contact Me</h2>
                     </div>
                 </div>
             </div>
@@ -2810,21 +2610,22 @@
                             <img src="<?php echo URL.'public/assets/images/contact/contact1.png'; ?>" alt="contact-img">
                         </div>
                         <div class="title-area">
-                            <h4 class="title">Nevine Acotanza</h4>
-                            <span>Chief Operating Officer</span>
+                            <h4 class="title">Ebenezer Albidar Narh</h4>
+                            <span>Software Engineer</span>
                         </div>
                         <div class="description">
                             <p>I am available for freelance work. Connect with me via and call in to my account.
                             </p>
-                            <span class="phone">Phone: <a href="tel:01941043264">+01234567890</a></span>
-                            <span class="mail">Email: <a href="mailto:admin@example.com">admin@example.com</a></span>
+                            <span class="phone">Phone: <a href="tel:+233244285651">+233244285651</a></span>
+                            <span class="mail">Email: <a href="mailto:dealbidar@w3-multimedia.com">dealbidar@w3-multimedia.com</a></span>
                         </div>
                         <div class="social-area">
-                            <div class="name">FIND WITH ME</div>
+                            <div class="name">FIND ME</div>
                             <div class="social-icone">
-                                <a href="<?php echo URL.'index#'; ?>"><i data-feather="facebook"></i></a>
-                                <a href="<?php echo URL.'index#'; ?>"><i data-feather="linkedin"></i></a>
-                                <a href="<?php echo URL.'index#'; ?>"><i data-feather="instagram"></i></a>
+                                <a href="https://facebook.com/DeAlbidar"><i data-feather="facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/DeAlbidar"><i data-feather="linkedin"></i></a>
+                                <a href="https://www.instagram.com/DeAlbidar/"><i data-feather="instagram"></i></a>
+                                <a href="https://twitter.com/DeAlbidar"><i data-feather="twitter"></i></a>
                             </div>
                         </div>
                     </div>
@@ -3578,7 +3379,7 @@
                         <div class="col-lg-6">
                             <div class="portfolio-popup-thumbnail">
                                 <div class="image">
-                                    <img class="w-100" src="<?php echo URL.'public/assets/images/portfolio/portfolio-04.jpg'; ?>" alt="slide">
+                                    <img class="w-100" src="<?php echo URL.'public/assets/images/portfolio/portfolio-01.jpg'; ?>" alt="slide">
                                 </div>
                             </div>
                         </div>
@@ -3586,10 +3387,13 @@
                         <div class="col-lg-6">
                             <div class="text-content">
                                 <h3>
-                                    <span>Featured - Design</span> App Design Development.
+                                    <span>Featured - Design</span> UI/UX Design.
                                 </h3>
-                                <p class="mb--30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-                                <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+                                <p><strong>User-Centered Approach:</strong> I take a user-centric approach to design, ensuring that the user's needs and preferences are at the forefront of every project.</p>
+                                <p><strong>Wireframing and Prototyping:</strong> I create wireframes and interactive prototypes to visualize the layout and functionality of websites and mobile apps before development begins.</p>
+                                <p><strong>Responsive Design:</strong> My designs are responsive, meaning they adapt seamlessly to various screen sizes and devices, providing a consistent and enjoyable user experience.</p>
+                                <p><strong>Usability Testing:</strong> I conduct usability testing to gather valuable feedback from real users, helping to refine and improve the design for optimal usability.</p>
+                                <!--
                                 <div class="button-group mt--20">
                                     <a href="<?php echo URL.'index#'; ?>" class="rn-btn thumbs-icon">
                                         <span>LIKE THIS</span>
@@ -3600,7 +3404,105 @@
                                         <i data-feather="chevron-right"></i>
                                     </a>
                                 </div>
+                                -->
+                            </div>
+                            <!-- End of .text-content -->
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i data-feather="x"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
 
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="<?php echo URL.'public/assets/images/portfolio/portfolio-16.jpg'; ?>" alt="slide">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured - Design</span> Web Design.
+                                </h3>
+                                <p><strong>Modern and Visually Appealing:</strong> I specialize in crafting modern and visually appealing websites that leave a lasting impression on visitors.</p>
+                                <p><strong>Customized Solutions:</strong> Each web design project is tailored to the client's unique brand identity and requirements, resulting in a unique and engaging online presence.</p>
+                                <p><strong>Cross-Browser Compatibility:</strong> I ensure that websites are compatible with all major web browsers, ensuring a consistent experience for all users.</p>
+                                <p><strong>Performance Optimization:</strong> I optimize web designs for speed and performance, delivering fast-loading pages that enhance user satisfaction.</p>
+                                <!--
+                                <div class="button-group mt--20">
+                                    <a href="<?php echo URL.'index#'; ?>" class="rn-btn thumbs-icon">
+                                        <span>LIKE THIS</span>
+                                        <i data-feather="thumbs-up"></i>
+                                    </a>
+                                    <a href="<?php echo URL.'index#'; ?>" class="rn-btn">
+                                        <span>VIEW PROJECT</span>
+                                        <i data-feather="chevron-right"></i>
+                                    </a>
+                                </div>
+                                -->
+                            </div>
+                            <!-- End of .text-content -->
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i data-feather="x"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="<?php echo URL.'public/assets/images/portfolio/portfolio-03.jpg'; ?>" alt="slide">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured -</span> Mobile App Design.
+                                </h3>
+                                <p><strong>Platform-Specific Design:</strong> I create mobile app interfaces that adhere to platform-specific design guidelines, delivering a native look and feel for both iOS and Android users.</p>
+                                <p><strong>Intuitive Navigation:</strong> User-friendly and intuitive navigation is a top priority, making it easy for users to accomplish tasks within the app.</p>
+                                <p><strong>Visual Consistency:</strong> I maintain visual consistency throughout the app, ensuring a cohesive and branded user experience.</p>
+                                <p><strong>Interactive Prototypes:</strong> Interactive app prototypes are developed to provide clients with a hands-on feel for the app's functionality before development starts.</p>
+                                <!--
+                                <div class="button-group mt--20">
+                                    <a href="<?php echo URL.'index#'; ?>" class="rn-btn thumbs-icon">
+                                        <span>LIKE THIS</span>
+                                        <i data-feather="thumbs-up"></i>
+                                    </a>
+                                    <a href="<?php echo URL.'index#'; ?>" class="rn-btn">
+                                        <span>VIEW PROJECT</span>
+                                        <i data-feather="chevron-right"></i>
+                                    </a>
+                                </div>
+                                -->
                             </div>
                             <!-- End of .text-content -->
                         </div>
