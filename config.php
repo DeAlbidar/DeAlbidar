@@ -8,9 +8,9 @@
 
 define('DB_TYPE', 'mysql');
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'WatchGhana');
-define('DB_USER', 'sa');
-define('DB_PASS', '1234');
+define('DB_NAME', 'w3multim_Albidar');
+define('DB_USER', 'w3multim_albidar');
+define('DB_PASS', 'U=U2tR*%&gs.');
 
 define('CREATED', 101);
 define('EXISTS', 102);
@@ -30,10 +30,13 @@ define('HASH_GENERAL_KEY', 'MixitUp200');
 define('HASH_PASSWORD_KEY', 'catsFLYhigh2000miles');
 
 // Always provide a TRAILING SLASH (/) AFTER A PATH
-define('URL', 'http://'.$_SERVER['SERVER_NAME'].'/DeAlbidar/');
+define('URL', 'https://'.$_SERVER['SERVER_NAME'].'/');
 
 define ('SITE_ROOT', realpath(dirname(__FILE__)));
 
 define('LIBS', 'libs/');
 
 define('MAILER_DIR', 'libs/PHPMailer/');
+
+
+
