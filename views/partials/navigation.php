@@ -2,7 +2,7 @@
 <div class="d-none d-xl-block">
     <header class="rn-header-area d-flex align-items-start flex-column left-header-style">
         <div class="logo-area">
-            <a href="index.html">
+            <a href="<?php echo URL."index"; ?>">
                 <img src="<?php echo URL.'public/assets/images/logo/logo-07.png'; ?>" alt="personal-logo">
             </a>
         </div>
