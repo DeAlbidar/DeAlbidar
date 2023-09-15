@@ -37,7 +37,7 @@ class Index extends Controller{
         $this->view->title = 'Ebenezer Albidar Narh | DeAlbidar';
         $this->view->description = "";
         $this->view->url = 'https://www.dealbidar.com/index';
-        $this->view->image = 'https://www.dealbidar.com/public/assets/images/banner.jpg';
+        $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'W3 Multimedia Ghana Limited';
         $this->view->keywords = '';    
         $this->view->render('index/index');
