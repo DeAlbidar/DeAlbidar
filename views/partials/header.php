@@ -36,7 +36,7 @@
         <meta content='en_US' property='og:locale'/>
         <meta content='article' property='og:type'/>
         <meta content="<?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?>" name='twitter:title' property='og:title'/>
-        <meta content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/metatag.png' ?>" name='twitter:image' property='og:image'/>
+        <meta content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg' ?>" name='twitter:image' property='og:image'/>
         <meta content="<?= (isset($this->description)) ? $this->description : 'Welcome | dealbidar.com' ?>" name='twitter:description' property='og:description'/>
         <meta content="https://web.facebook.com/dealbidar/" property='article:author'/>
         <meta property="og:video" content="<?= (isset($this->meta_video)) ? $this->meta_video : 'https://www.youtube.com/watch?v=Vc3qvxm9E90' ?>" />
@@ -64,8 +64,8 @@
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "Ebenezer Albidar Narh",
-            "logo": "https://www.dealbidar.com/public/img/WGMain.png",
-            "image": "https://www.dealbidar.com/public/img/WGMain.png",
+            "logo": "https://www.dealbidar.com/public/assets/images/logo/logo-07.png",
+            "image": "https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg",
             "url": "https://www.dealbidar.com",
             "contactPoint": [{
             "@type": "ContactPoint",
@@ -90,6 +90,6 @@
         <meta property="og:url" content="<?= (isset($this->url)) ? $this->url : 'https://www.dealbidar.com/index' ?>" />
         <meta property="og:title" content="<?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?>" />
         <meta property="og:description" content="<?= (isset($this->description)) ? $this->description : ' ' ?>" />
-        <meta property="og:image" content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/metatag.png' ?>" />
+        <meta property="og:image" content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg' ?>" />
         <meta property="og:video" content="<?= (isset($this->meta_video)) ? $this->meta_video : 'https://www.youtube.com/watch?v=Vc3qvxm9E90' ?>" />
         
