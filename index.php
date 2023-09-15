@@ -11,22 +11,13 @@ ini_set('display_errors', 'On');
 date_default_timezone_set('Africa/Accra');
 
 require 'config.php';
-//require 'libs/FormHandler/Form.php';
 require 'util/Auth.php';
 require_once('libs/geoplugin/geoplugin.class.php');
 
 spl_autoload_register(function($class) {
     include LIBS . $class . '.php';
 });
-//require 'class/library.php';
-
 
 $app = new Bootstrap();
-
-// Optional Path Settings
-//$app->setControllerPath();
-//$app->setModelPath();
-//$app->setDefaultFile();
-//$app->setErrorFile();
 
 $app->init();
