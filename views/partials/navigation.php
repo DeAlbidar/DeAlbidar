@@ -28,6 +28,7 @@
                         <i data-feather="users"></i>Resume
                     </a>
                 </li>
+                <!--
                 <li class="nav-item">
                     <a class="nav-link smoth-animation-two" href="<?php echo URL.'index#clients'; ?>">
                         <i data-feather="user"></i>Clients
@@ -43,6 +44,7 @@
                         <i data-feather="image"></i>blog
                     </a>
                 </li>
+                -->
                 <li class="nav-item">
                     <a class="nav-link smoth-animation-two" href="<?php echo URL.'index#contacts'; ?>">
                         <i data-feather="message-circle"></i>Contact
@@ -145,6 +147,7 @@
                 <li class="nav-item">
                     <a class="nav-link smoth-animation-two" href="<?php echo URL.'index#resume'; ?>">Resume</a>
                 </li>
+                <!--
                 <li class="nav-item">
                     <a class="nav-link smoth-animation-two" href="<?php echo URL.'index#clients'; ?>">Clients</a>
                 </li>
@@ -154,6 +157,7 @@
                 <li class="nav-item">
                     <a class="nav-link smoth-animation-two" href="<?php echo URL.'index#blog'; ?>">blog</a>
                 </li>
+                -->
                 <li class="nav-item">
                     <a class="nav-link smoth-animation-two" href="<?php echo URL.'index#contacts'; ?>">Contact</a>
                 </li>
