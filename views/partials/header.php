@@ -69,7 +69,7 @@
             "url": "https://www.dealbidar.com",
             "contactPoint": [{
             "@type": "ContactPoint",
-            "telephone": "+233-312-295-283",
+            "telephone": "+233-244-285-651",
             "contactType": "customer service"
             }],
             "sameAs": [
