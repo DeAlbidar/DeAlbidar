@@ -41,7 +41,7 @@ class Errors extends Controller{
         $this->view->url = 'https://www.dealbidar.com/errors';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'W3 Multimedia Ghana Limited';
-        $this->view->keywords = '';    
+        $this->view->keywords = 'dealbidar, Ebenezer Albidar Narh, Software Engineer, Web Developer, Mobile App Developer, Software Development, Programming, Responsive Design, UI/UX Design, Problem-Solving, Technology, Coding, Tech Stack, Client Projects, Optimization, Open Source, Testimonials, Blog, Freelance Developer, Contact Information, LinkedIn Profile';    
         $this->view->render('index/index');
     }
     
