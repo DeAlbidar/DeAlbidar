@@ -34,7 +34,7 @@ class Index extends Controller{
     }
     
     function index(){
-        $this->view->title = 'Ebenezer Albidar Narh | DeAlbidar';
+        $this->view->title = 'Ebenezer Albidar Narh - Software Engineer and Web Developer.';
         $this->view->description = "";
         $this->view->url = 'https://www.dealbidar.com/index';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
