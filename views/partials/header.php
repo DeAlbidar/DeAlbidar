@@ -35,6 +35,8 @@
         <meta content='WatchGhana Official' property='og:site_name'/>
         <meta content='en_US' property='og:locale'/>
         <meta content='article' property='og:type'/>
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="7 days">
         <meta content="<?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?>" name='twitter:title' property='og:title'/>
         <meta content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg' ?>" name='twitter:image' property='og:image'/>
         <meta content="<?= (isset($this->description)) ? $this->description : 'Welcome | dealbidar.com' ?>" name='twitter:description' property='og:description'/>
