@@ -36,7 +36,7 @@ class Errors extends Controller{
     }
     
     function index(){
-        $this->view->title = 'Page Not Found | DeAlbidar';
+        $this->view->title = 'Ebenezer Albidar Narh - Software Engineer and Web Developer.';
         $this->view->description = "";
         $this->view->url = 'https://www.dealbidar.com/errors';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
