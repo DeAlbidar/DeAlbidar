@@ -35,7 +35,7 @@ class Index extends Controller{
     
     function index(){
         $this->view->title = 'Ebenezer Albidar Narh - Software Engineer and Web Developer.';
-        $this->view->description = "";
+        $this->view->description = "Welcome to the portfolio of Ebenezer Albidar Narh, a highly skilled Software Engineer and Web Developer. Explore a diverse range of projects showcasing expertise in software development, mobile app development, responsive design, and problem-solving. Discover how I use cutting-edge technology to bring creative solutions to life.";
         $this->view->url = 'https://www.dealbidar.com/index';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'W3 Multimedia Ghana Limited';
