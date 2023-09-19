@@ -97,7 +97,6 @@
     </header>
 </div>
 <!-- start Header area end -->
-
 <!-- Header Mobile Bar  -->
 <div class="header-style-2 d-block d-xl-none">
     <div class="row align-items-center">
