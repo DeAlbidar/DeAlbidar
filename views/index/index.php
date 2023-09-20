@@ -1,5 +1,4 @@
 <main class="page-wrapper-two">
-
     <!-- start slider area -->
     <section id="home" class="slider-style-6 web-developer height--100 rn-section-gap align-items-center with-particles bg_image--11 bg_image" data-black-overlay="5">
         <div id="particles-js"></div>
