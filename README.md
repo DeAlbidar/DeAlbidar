@@ -1,38 +1,71 @@
+# 👋 Hi, I'm Ebenezer Albidar Narh
 
+💻 A passionate full-stack developer focused on building **mobile apps**, **web platforms**, and **custom software solutions** that solve real-world problems.  
+🎓 MSc Computer Science @ Ghana Communication Technology University  
+🌱 Currently exploring **machine learning**, **IoT integrations**, and **cloud-native development**.  
+🚀 Always learning, collaborating, and contributing to open-source projects.
 
-<h1 align="center">Hi 👋, I'm Ebenezer Albidar Narh</h1>
-<h3 align="center">A passionate frontend and back-end developer from Ghana</h3>
+---
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dealbidar&label=Profile%20views&color=0e75b6&style=flat" alt="dealbidar" /> </p>
+## 🛠 Tech Stack
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dealbidar" alt="dealbidar" /></a> </p>
+**Languages & Frameworks**  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-<p align="left"> <a href="https://twitter.com/dealbidar" target="blank"><img src="https://img.shields.io/twitter/follow/dealbidar?logo=twitter&style=for-the-badge" alt="dealbidar" /></a> </p>
+**Mobile & Web**  
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- 🔭 I’m currently working on [Memo Management And Reporting System](https://github.com/DeAlbidar/Memo-Management-And-Tracking-System)
+**Database & Tools**  
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Retrofit](https://img.shields.io/badge/Retrofit-2C3E50?style=for-the-badge)
 
-- 🌱 I’m currently learning **Python**
+---
 
-- 📫 How to reach me **albidarebenezernarh@gmail.com**
+## 📂 What I'm Working On
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/dealbidar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dealbidar" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/dealbidar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dealbidar" height="30" width="40" /></a>
-<a href="https://fb.com/dealbidar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dealbidar" height="30" width="40" /></a>
-<a href="https://instagram.com/dealbidar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dealbidar" height="30" width="40" /></a>
-</p>
+- 🔧 **RDP Africa** – A live radio streaming app for the continent  
+- 📊 **Big Book** – An inventory management system for stock tracking  
+- 🌍 **Create Your World** – A social impact project using tech for SDGs  
+- 🛡 **IT Asset Inventory** – A custody tracker for enterprise devices  
+- 🧠 Personalized e-Learning platform using adaptive ML models
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dealbidar&show_icons=true&locale=en&layout=compact" alt="dealbidar" /></p>
+## 📈 GitHub Stats
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dealbidar&show_icons=true&locale=en" alt="dealbidar" /></p>
+<div align="center">
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dealbidar&" alt="dealbidar" /></p>
+[![GitHub Streak](https://streak-stats.demolab.com/?user=DeAlbidar&theme=tokyonight&hide_border=true)](https://github.com/DeAlbidar)  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DeAlbidar&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/DeAlbidar)  
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeAlbidar&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/DeAlbidar)
 
-<!---
-DeAlbidar/DeAlbidar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+</div>
+
+---
+
+## 🔄 Recent GitHub Activity
+
+> **⚠️ Note:** To see your activity, ensure your GitHub profile contributions are public and that you're starring, forking, or pushing to repos regularly.
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DeAlbidar&theme=tokyo-night&hide_border=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
+---
+
+## 🌐 Connect With Me
+
+📧 [Email](mailto:albidarebenezernarh@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/dealbidar/)  
+🌍 [Portfolio](https://dealbidar.com)
+
+---
+
+_💡 “Technology should not just be powerful—it should be meaningful.”_
+
+_Built with ❤️ by Ebenezer Albidar Narh_
