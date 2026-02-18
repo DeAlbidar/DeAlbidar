@@ -1,5 +1,5 @@
 <?php
-$file = URL.'public/assets/cv/ebenezer_albidar_narh_cv.pdf';
+$file = 'public/assets/cv/ebenezer_albidar_narh_cv.pdf';
 
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
@@ -12,6 +12,6 @@ if (file_exists($file)) {
     readfile($file);
     exit;
 } else {
-    header('Location: index.html?error=file_not_found');
+    header('Location: index.php?error=file_not_found');
 }
 ?>
