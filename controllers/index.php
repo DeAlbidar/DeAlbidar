@@ -57,7 +57,7 @@ class Index extends Controller{
             exit;
         } else {
             $this->model->contact($_POST);
-            header('location: '.URL.'index');
+            header('location: '.URL.'contact');
         }
     }
     

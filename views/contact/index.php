@@ -59,7 +59,10 @@
                 <div class="contact-form">
                     <h2>Send a Message</h2>
                     
-                    <form method="POST" action="" id="contactForm" action="<?php echo URL.'index/contact'; ?>">
+                    <form method="POST" action="" action="<?php echo URL.'index/contact'; ?>">
+                        <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                        <input type="hidden" name="action" value="validate_captcha">
+                        
                         <div class="form-group">
                             <label for="name">Name *</label>
                             <input type="text" id="name" name="name" required>
