@@ -66,7 +66,7 @@
                         <i class="fas fa-coins"></i>
                     </div>
                     <h3>Petty Cash Management System</h3>
-                    <p class="project-tech">PHP, MySQL, JavaScript</p>
+                    <p class="project-tech">Power Apps, Power Automate, SharePoint</p>
                     <p class="project-description">
                         Digital solution for tracking petty cash requests, approvals, disbursements, and 
                         reconciliations with automated audit trails.
@@ -81,7 +81,7 @@
                         <i class="fas fa-tasks"></i>
                     </div>
                     <h3>Workload Management Platform</h3>
-                    <p class="project-tech">React, Node.js, PostgreSQL</p>
+                    <p class="project-tech">Power Apps, Power Automate, SharePoint</p>
                     <p class="project-description">
                         Internal platform for staff requests, workload distribution, and resource allocation 
                         with real-time dashboards and reporting.
@@ -96,7 +96,7 @@
                         <i class="fas fa-car"></i>
                     </div>
                     <h3>Vehicle & Travel Request System</h3>
-                    <p class="project-tech">PHP, JavaScript, MySQL</p>
+                    <p class="project-tech">Power Apps, Power Automate, SharePoint</p>
                     <p class="project-description">
                         Comprehensive system for vehicle booking, driver assignment, fuel tracking, 
                         and maintenance scheduling with automated notifications.
