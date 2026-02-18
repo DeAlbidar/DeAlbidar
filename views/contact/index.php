@@ -18,7 +18,7 @@
                         <div>
                             <h3>Email</h3>
                             <a href="mailto:albidarebenezernarh@gmail.com">albidarebenezernarh@gmail.com</a>
-                            <a href="mailto:albidar@dealbidar.com">albidar@dealbidar.com</a>
+                            <a href="mailto:ebenezer.albidar.narh@innink.co.uk">ebenezer.albidar.narh@innink.co.uk</a>
                         </div>
                     </div>
                     
