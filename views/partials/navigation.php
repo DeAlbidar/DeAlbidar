@@ -17,7 +17,7 @@
             <span></span>
         </button>
         <ul class="nav-menu" id="navMenu">
-            <li><a href="<?php echo URL.'index'; ?>" class="active">Home</a></li>
+            <li><a href="<?php echo URL.'index'; ?>">Home</a></li>
             <li><a href="<?php echo URL.'about'; ?>">About</a></li>
             <li><a href="<?php echo URL.'projects'; ?>">Projects</a></li>
             <li><a href="<?php echo URL.'experience'; ?>">Experience</a></li>

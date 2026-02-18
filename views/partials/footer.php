@@ -28,6 +28,19 @@ if (isset($this->js)) {
 }
 ?>
 
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.nav-menu a');
+    
+    navLinks.forEach(link => {
+        if (link.getAttribute('href').includes(currentPath.split('/').pop())) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+});
+</script>
 </body>
 </html>
