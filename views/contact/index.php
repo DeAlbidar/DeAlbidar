@@ -59,7 +59,7 @@
                 <div class="contact-form">
                     <h2>Send a Message</h2>
                     
-                    <form method="POST" action="" action="<?php echo URL.'index/contact'; ?>">
+                    <form method="POST" action="<?php echo URL.'index/contact'; ?>">
                         <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                         <input type="hidden" name="action" value="validate_captcha">
                         
