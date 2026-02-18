@@ -8,6 +8,33 @@
     <section class="projects">
         <div class="container">
             <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Big Book – Inventory & Stock Management System</h3>
+                    <p class="project-tech">PHP, MySQL, REST APIs, JavaScript, HTML5, CSS3, Android (Java)</p>
+
+                    <p class="project-description">
+                        Big Book is a comprehensive inventory and stock management system designed 
+                        to help businesses efficiently track products, manage sales transactions, 
+                        monitor stock levels, and generate real-time financial summaries. 
+                        The platform streamlines daily business operations by providing accurate 
+                        records of purchases, sales, payments, returns, and outstanding balances.
+                    </p>
+                    <p class="project-description">
+                        Developed under <strong>InnInk Limited</strong>, Big Book focuses on 
+                        structured data management, performance optimization, secure role-based access control, 
+                        and scalable database architecture to support small and medium-sized enterprises. 
+                        The system enhances operational transparency and improves financial accountability.
+                    </p>
+                    <div class="project-impact">
+                        <strong>Impact:</strong> Improving business efficiency, reducing stock discrepancies, 
+                        and enabling data-driven decision-making for growing enterprises.
+                    </div>
+                </div>
+
                 
                 <div class="project-card">
                     <div class="project-icon">
