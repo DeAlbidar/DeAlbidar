@@ -9,7 +9,7 @@
 <nav class="navbar">
     <div class="container">
         <div class="nav-brand">
-            <a href="index.html">E.A. Narh</a>
+            <a href="<?php echo URL.'index'; ?>">Ebenezer Albidar Narh</a>
         </div>
         <button class="mobile-menu-btn" id="mobileMenuBtn">
             <span></span>
@@ -17,11 +17,11 @@
             <span></span>
         </button>
         <ul class="nav-menu" id="navMenu">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="<?php echo URL.'index'; ?>" class="active">Home</a></li>
+            <li><a href="<?php echo URL.'about'; ?>">About</a></li>
+            <li><a href="<?php echo URL.'projects'; ?>">Projects</a></li>
+            <li><a href="<?php echo URL.'experience'; ?>">Experience</a></li>
+            <li><a href="<?php echo URL.'contact'; ?>">Contact</a></li>
         </ul>
     </div>
 </nav>
