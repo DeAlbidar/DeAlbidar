@@ -13,13 +13,13 @@
                     through AI-assisted systems and enterprise solutions.
                 </p>
                 <div class="hero-cta">
-                    <a href="#" class="btn btn-primary btn-large">
+                    <a href="<?php echo URL.'download_cv'; ?>" class="btn btn-primary btn-large">
                         <i class="fas fa-download"></i> Download CV
                     </a>
-                    <a href="#" class="btn btn-secondary">
+                    <a href="<?php echo URL.'projects'; ?>" class="btn btn-secondary">
                         <i class="fas fa-code-branch"></i> View Projects
                     </a>
-                    <a href="#" class="btn btn-outline">
+                    <a href="<?php echo URL.'contact'; ?>" class="btn btn-outline">
                         <i class="fas fa-envelope"></i> Contact Me
                     </a>
                 </div>
