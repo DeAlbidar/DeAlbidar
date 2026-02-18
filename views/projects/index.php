@@ -23,12 +23,7 @@
                         The platform streamlines daily business operations by providing accurate 
                         records of purchases, sales, payments, returns, and outstanding balances.
                     </p>
-                    <p class="project-description">
-                        Developed under <strong>InnInk Limited</strong>, Big Book focuses on 
-                        structured data management, performance optimization, secure role-based access control, 
-                        and scalable database architecture to support small and medium-sized enterprises. 
-                        The system enhances operational transparency and improves financial accountability.
-                    </p>
+
                     <div class="project-impact">
                         <strong>Impact:</strong> Improving business efficiency, reducing stock discrepancies, 
                         and enabling data-driven decision-making for growing enterprises.
