@@ -3,7 +3,7 @@
     <div class="container">
         <div class="footer-content">
             <div class="footer-info">
-                <p>&copy; 2024 Ebenezer Albidar Narh. All rights reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> Ebenezer Albidar Narh. All rights reserved.</p>
             </div>
             <div class="footer-social">
                 <a href="https://github.com/DeAlbidar" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
