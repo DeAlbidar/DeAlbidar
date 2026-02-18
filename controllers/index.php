@@ -11,24 +11,9 @@ class Index extends Controller{
     function __construct() {
         parent::__construct();
         $this->view->css = array(
-            'public/assets/css/vendor/bootstrap.min.css',
-            'public/assets/css/vendor/slick.css',
-            'public/assets/css/vendor/slick-theme.css',
-            'public/assets/css/vendor/aos.css',
-            'public/assets/css/plugins/feature.css',
             'public/assets/css/style.css'
             );
         $this->view->js = array(
-            'public/assets/js/vendor/jquery.js',
-            'public/assets/js/vendor/modernizer.min.js',
-            'public/assets/js/vendor/feather.min.js',
-            'public/assets/js/vendor/slick.min.js',
-            'public/assets/js/vendor/bootstrap.js',
-            'public/assets/js/vendor/text-type.js',
-            'public/assets/js/vendor/wow.js',
-            'public/assets/js/vendor/aos.js',
-            'public/assets/js/vendor/particles.js',
-            'public/assets/js/vendor/jquery-one-page-nav.js',
             'public/assets/js/main.js'
             );
     }
