@@ -5,18 +5,17 @@
  * Handles posting trending content to Facebook
  */
 
-class Facebookposter_Model {
+class Facebookposter_Model extends Model {
 
     private $facebookAPI;
     private $contentGenerator;
-    private $db;
     private $logFile;
 
     function __construct() {
+        parent::__construct();
         require_once 'libs/FacebookAPI.php';
         require_once 'libs/ContentGenerator.php';
         
-        $this->db = new Database();
         $this->facebookAPI = new FacebookAPI(
             FACEBOOK_PAGE_ID,
             FACEBOOK_ACCESS_TOKEN
