@@ -20,14 +20,19 @@ class Facebookposter extends Controller {
      */
     function post() {
         try {
-            $result = $this->model->postTrendingContent();
+            $pageKey = $_GET['page'] ?? null;
+            $category = $_GET['category'] ?? null;
+            $result = $this->model->postTrendingContent($pageKey, $category);
             
             if ($result['success']) {
                 echo json_encode([
                     'status' => 'success',
-                    'message' => 'Content posted successfully',
-                    'post_id' => $result['post_id'],
+                    'message' => $result['message'] ?? 'Content posted successfully',
+                    'post_id' => $result['post_id'] ?? null,
                     'category' => $result['category'],
+                    'skipped' => $result['skipped'] ?? false,
+                    'page_key' => $result['page_key'] ?? null,
+                    'page_id' => $result['page_id'] ?? null,
                     'timestamp' => date('Y-m-d H:i:s')
                 ]);
             } else {
@@ -52,7 +57,8 @@ class Facebookposter extends Controller {
      * Get posting status and history
      */
     function status() {
-        $result = $this->model->getStatus();
+        $pageKey = $_GET['page'] ?? null;
+        $result = $this->model->getStatus($pageKey);
         echo json_encode($result);
     }
 
@@ -60,7 +66,8 @@ class Facebookposter extends Controller {
      * Get last posted content
      */
     function last() {
-        $result = $this->model->getLastPosted();
+        $pageKey = $_GET['page'] ?? null;
+        $result = $this->model->getLastPosted($pageKey);
         echo json_encode($result);
     }
 
@@ -68,7 +75,9 @@ class Facebookposter extends Controller {
      * Test method - doesn't post, just shows what would be posted
      */
     function test() {
-        $result = $this->model->generateTestContent();
+        $pageKey = $_GET['page'] ?? null;
+        $category = $_GET['category'] ?? null;
+        $result = $this->model->generateTestContent($pageKey, $category);
         echo json_encode($result);
     }
 }

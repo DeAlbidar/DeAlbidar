@@ -44,5 +44,4 @@ define('LIBS', 'libs/');
 define('MAILER_DIR', 'libs/PHPMailer/');
 
 // Facebook Graph API Configuration
-define('FACEBOOK_PAGE_ID', '101849324975567');
-define('FACEBOOK_ACCESS_TOKEN', 'EAANU5a3nV4MBQ1vCvGjb7UhyWIOqJVdZCbZBeKKZCjsMkY5scAJvXg55vtDrJv9mhOv3WCGz7mwWhujZCk92GriifLMmqsA7aJPuqeRvNQsL2DqwofQ88AKokPquqP0gxRYIOqRifJB5tgk9z6uFpOpjn2QykhMs4nyfHplkbTTZB59dV7yfapLqmOKWQdZCKEQzIOeCMggkZA7vUN79zNBLz2IRbR9avutZCZAhPUh4mQgZDZD');
+require_once __DIR__ . '/facebook_pages.php';

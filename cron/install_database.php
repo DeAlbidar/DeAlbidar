@@ -8,7 +8,7 @@ require_once dirname(__DIR__) . '/config.php';
 require_once dirname(__DIR__) . '/libs/Database.php';
 
 try {
-    $db = new Database();
+    $db = new Database(DB_TYPE, DB_HOST, DB_NAME, DB_USER, DB_PASS);
     
     // Create facebook_posts table
     $createTableSQL = "
