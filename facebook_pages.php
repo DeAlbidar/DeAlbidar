@@ -19,7 +19,13 @@ if (!defined('FACEBOOK_PAGE_TARGETS')) {
             'label' => 'Ebenezer Albidar Narh',
             'page_id' => '101849324975567',
             'access_token' => 'EAANU5a3nV4MBQ27ZAWQ2rZCgBqP6TQZBTw9uJ9BcYoP789bcn9ZBNgZBOBx3AnJvm1BlYL4UygqXnd1atSgZCbkQyOLQwG6GTSXbUW8xZCEP8cVkPoM5ZCCwXFRYlJYPMXHpWBaG7qxxuYrapIP5ORZCfmOXFaHTYUe43i5fz03IukmIPMr1EjQQ7EZCwgk5XVpEEzZAgGIBuDpYqvcKEF5AaG6xlZCavXh28a1pNbkoUoDSKgZDZD',
-            'default_category' => 'tech_ai',
+            'default_category' => [
+                'tech_ai',
+                'motivational_content',
+                'health_tips',
+                'football_highlights',
+                'funny_memes'
+            ],
             'posts_per_day' => 1
         ]
     ]);

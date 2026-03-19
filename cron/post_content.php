@@ -181,7 +181,33 @@ class FacebookPosterCron {
     }
 
     private function resolveCategory($pageConfig, $category = null) {
-        $category = strtolower(trim((string) ($category ?: $pageConfig['default_category'] ?: '')));
+        $availableCategories = ContentGenerator::getCategories();
+        $preferredCategories = [];
+
+        if ($category !== null && $category !== '') {
+            $preferredCategories[] = $category;
+        } else {
+            $defaultCategory = $pageConfig['default_category'] ?? [];
+            $preferredCategories = is_array($defaultCategory) ? $defaultCategory : [$defaultCategory];
+        }
+
+        $resolvedCategories = [];
+        foreach ($preferredCategories as $preferredCategory) {
+            $normalizedCategory = $this->normalizeCategoryKey($preferredCategory);
+            if (in_array($normalizedCategory, $availableCategories, true)) {
+                $resolvedCategories[] = $normalizedCategory;
+            }
+        }
+
+        if (!empty($resolvedCategories)) {
+            return $resolvedCategories[array_rand($resolvedCategories)];
+        }
+
+        return $availableCategories[array_rand($availableCategories)];
+    }
+
+    private function normalizeCategoryKey($category) {
+        $category = strtolower(trim((string) $category));
 
         $aliases = [
             'ict' => 'tech_ai',
@@ -190,17 +216,7 @@ class FacebookPosterCron {
             'tech' => 'tech_ai'
         ];
 
-        if (isset($aliases[$category])) {
-            $category = $aliases[$category];
-        }
-
-        $availableCategories = ContentGenerator::getCategories();
-
-        if (in_array($category, $availableCategories, true)) {
-            return $category;
-        }
-
-        return $availableCategories[array_rand($availableCategories)];
+        return $aliases[$category] ?? $category;
     }
 
     private function generateUniqueContent($category, $pageKey) {
