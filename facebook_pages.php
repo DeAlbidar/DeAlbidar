@@ -11,14 +11,14 @@ if (!defined('FACEBOOK_PAGE_TARGETS')) {
         'innink_limited' => [
             'label' => 'InnInk Limited',
             'page_id' => '101457405937851',
-            'access_token' => 'EAANU5a3nV4MBQxt8FuJFhC5qizrgk5wfjhsWTxsV5ZCSb6UOUClAZBERHLRkbEXgHnLWaarC1hfwscAxjZBmMHwof2mAVxZBFfHVSGdheaRDjB9voRxC4ubZBQv4uz1TUEepcsVRckRZC6U7i3253D3siIhTHUE4SfECyCSQTggzdiiRWUvJ7v3C8W19u5CKdoVCpiu8s0V4rdBkfpJWo0tTvKzCX29wfkJ9bQv8QhgwZDZD',
+            'access_token' => 'EAANU5a3nV4MBQ9bZCZA1d1n4tqekA0qZAZCWWbirTGXwwCjSoxeTPWZA0ZBMjw8f9QnYeC7AYRcnURVEQRRgiSdgghAFTN7YeWvqOK8byT6vIU2YK636HJ3h4jHKZBbif5Wws6cSMqjLuzNDTat7dkj0nFCQQmjF5QSqYeD5i4iMAEFyuEZCBBsvyVsO2KPOjLAk0GhUDRZAV4XtC5Cauj7ZBO3ZBlaeB4aTT0sUB8kSlDgJAZDZD',
             'default_category' => 'tech_ai',
             'posts_per_day' => 1
         ],
         'ebenezer_albidar_narh' => [
             'label' => 'Ebenezer Albidar Narh',
             'page_id' => '101849324975567',
-            'access_token' => 'EAANU5a3nV4MBQ27ZAWQ2rZCgBqP6TQZBTw9uJ9BcYoP789bcn9ZBNgZBOBx3AnJvm1BlYL4UygqXnd1atSgZCbkQyOLQwG6GTSXbUW8xZCEP8cVkPoM5ZCCwXFRYlJYPMXHpWBaG7qxxuYrapIP5ORZCfmOXFaHTYUe43i5fz03IukmIPMr1EjQQ7EZCwgk5XVpEEzZAgGIBuDpYqvcKEF5AaG6xlZCavXh28a1pNbkoUoDSKgZDZD',
+            'access_token' => 'EAANU5a3nV4MBQw9I7qRV4AutHsAdHo2rIuRuxAKUiw2JgF7b0RIaX41LVZAP54zCR5XNaEKooEXafrlkmwiSjoAoJ9ho8bBLUidlXZBXRqR6AHl21ZC1ZCTZC36OfPO5GRyZB5r0sklaiGI97OdE71qQkDXHPyW0BaFeZCE3ZAabZC4Hi10HJF74YpkEP6g4ZCs8hSExN0Jb5FTgc2TD4YugFMFw30hOPWoxojYRYgLh5XZCAZDZD',
             'default_category' => [
                 'tech_ai',
                 'motivational_content',
