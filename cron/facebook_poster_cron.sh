@@ -9,22 +9,18 @@
 #    0 */3 * * * /var/www/html/DeAlbidar/cron/facebook_poster_cron.sh >> /var/log/facebook_poster.log 2>&1
 #
 
-WEBSITE_URL="https://dealbidar.com/jobs.php"
+WEBSITE_URL="https://dealbidar.com/?url=facebookposter/post"
 LOG_FILE="/var/log/facebook_poster.log"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 PAGE_KEY="${1:-}"
 CATEGORY="${2:-}"
 
 if [ -n "$PAGE_KEY" ]; then
-    WEBSITE_URL="${WEBSITE_URL}?page=${PAGE_KEY}"
+    WEBSITE_URL="${WEBSITE_URL}&page=${PAGE_KEY}"
 fi
 
 if [ -n "$CATEGORY" ]; then
-    if [ -n "$PAGE_KEY" ]; then
-        WEBSITE_URL="${WEBSITE_URL}&category=${CATEGORY}"
-    else
-        WEBSITE_URL="${WEBSITE_URL}?category=${CATEGORY}"
-    fi
+    WEBSITE_URL="${WEBSITE_URL}&category=${CATEGORY}"
 fi
 
 echo "[$TIMESTAMP] Starting Facebook content posting..." >> "$LOG_FILE"

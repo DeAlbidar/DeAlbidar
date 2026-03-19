@@ -22,19 +22,36 @@ class Facebookposter extends Controller {
         try {
             $pageKey = $_GET['page'] ?? null;
             $category = $_GET['category'] ?? null;
-            $result = $this->model->postTrendingContent($pageKey, $category);
+
+            if ($pageKey) {
+                $result = $this->model->postTrendingContent($pageKey, $category);
+            } else {
+                $result = $this->model->postAllTrendingContent($category);
+            }
             
             if ($result['success']) {
-                echo json_encode([
-                    'status' => 'success',
-                    'message' => $result['message'] ?? 'Content posted successfully',
-                    'post_id' => $result['post_id'] ?? null,
-                    'category' => $result['category'],
-                    'skipped' => $result['skipped'] ?? false,
-                    'page_key' => $result['page_key'] ?? null,
-                    'page_id' => $result['page_id'] ?? null,
-                    'timestamp' => date('Y-m-d H:i:s')
-                ]);
+                if ($pageKey) {
+                    echo json_encode([
+                        'status' => 'success',
+                        'message' => $result['message'] ?? 'Content posted successfully',
+                        'post_id' => $result['post_id'] ?? null,
+                        'category' => $result['category'],
+                        'skipped' => $result['skipped'] ?? false,
+                        'page_key' => $result['page_key'] ?? null,
+                        'page_id' => $result['page_id'] ?? null,
+                        'timestamp' => date('Y-m-d H:i:s')
+                    ]);
+                } else {
+                    echo json_encode([
+                        'status' => 'success',
+                        'message' => $result['message'],
+                        'total_pages' => $result['total_pages'],
+                        'success_count' => $result['success_count'],
+                        'error_count' => $result['error_count'],
+                        'results' => $result['results'],
+                        'timestamp' => date('Y-m-d H:i:s')
+                    ]);
+                }
             } else {
                 http_response_code(400);
                 echo json_encode([

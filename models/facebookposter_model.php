@@ -109,6 +109,36 @@ class Facebookposter_Model extends Model {
     }
 
     /**
+     * Post to all configured Facebook pages
+     */
+    public function postAllTrendingContent($category = null) {
+        $results = [];
+        $successCount = 0;
+        $errorCount = 0;
+
+        foreach (array_keys(getFacebookPageTargets()) as $pageKey) {
+            $result = $this->postTrendingContent($pageKey, $category);
+            $result['page_key'] = $result['page_key'] ?? $pageKey;
+            $results[] = $result;
+
+            if (!empty($result['success'])) {
+                $successCount++;
+            } else {
+                $errorCount++;
+            }
+        }
+
+        return [
+            'success' => true,
+            'message' => 'Processed all configured Facebook pages',
+            'total_pages' => count($results),
+            'success_count' => $successCount,
+            'error_count' => $errorCount,
+            'results' => $results
+        ];
+    }
+
+    /**
      * Generate test content without posting
      */
     public function generateTestContent($pageKey = null, $category = null) {
