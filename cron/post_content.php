@@ -285,10 +285,18 @@ class FacebookPosterCron {
     }
 }
 
-// Run the cron job
 $pageKey = $argv[1] ?? null;
 $category = $argv[2] ?? null;
-$cron = new FacebookPosterCron($pageKey, $category);
-$cron->execute();
+
+if ($pageKey) {
+    $cron = new FacebookPosterCron($pageKey, $category);
+    $cron->execute();
+    exit;
+}
+
+foreach (array_keys(getFacebookPageTargets()) as $configuredPageKey) {
+    $cron = new FacebookPosterCron($configuredPageKey, $category);
+    $cron->execute();
+}
 
 ?>
