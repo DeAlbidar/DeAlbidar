@@ -17,8 +17,8 @@ class Facebookposter_Model extends Model {
         require_once 'libs/ContentGenerator.php';
         
         $this->facebookAPI = new FacebookAPI(
-            FACEBOOK_PAGE_ID,
-            FACEBOOK_ACCESS_TOKEN
+            FACEBOOK_ACCESS_TOKEN,
+            FACEBOOK_PAGE_ID
         );
         $this->contentGenerator = new ContentGenerator($this->db);
         

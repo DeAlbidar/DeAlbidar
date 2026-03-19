@@ -11,8 +11,8 @@ class FacebookAPI {
     private $baseUrl = 'https://graph.facebook.com';
 
     public function __construct($accessToken, $pageId) {
-        $this->accessToken = $accessToken;
-        $this->pageId = $pageId;
+        $this->accessToken = trim($accessToken);
+        $this->pageId = trim($pageId);
     }
 
     /**
@@ -193,7 +193,7 @@ class FacebookAPI {
      * @param string $token - New access token
      */
     public function setAccessToken($token) {
-        $this->accessToken = $token;
+        $this->accessToken = trim($token);
     }
 }
 ?>
