@@ -2,6 +2,14 @@
 
 require_once __DIR__ . '/libs/FacebookPageConfig.php';
 
+if (!defined('FACEBOOK_APP_ID')) {
+    define('FACEBOOK_APP_ID', '937770371995523');
+}
+
+if (!defined('FACEBOOK_APP_SECRET')) {
+    define('FACEBOOK_APP_SECRET', '4c89176dfb221e44e327edb00d2b7100');
+}
+
 if (!defined('FACEBOOK_DEFAULT_PAGE_KEY')) {
     define('FACEBOOK_DEFAULT_PAGE_KEY', 'innink_limited');
 }
