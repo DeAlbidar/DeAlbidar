@@ -19,12 +19,13 @@ class Index extends Controller{
     }
     
     function index(){
-        $this->view->title = 'Ebenezer Albidar Narh - Software Engineer and Web Developer.';
-        $this->view->description = "Welcome to the portfolio of Ebenezer Albidar Narh, a highly skilled Software Engineer and Web Developer. Explore a diverse range of projects showcasing expertise in software development, mobile app development, responsive design, and problem-solving. Discover how I use cutting-edge technology to bring creative solutions to life.";
-        $this->view->url = 'https://www.dealbidar.com/index';
+        $this->view->title = 'Ebenezer Albidar Narh | AI and Full-Stack Software Engineer in Ghana';
+        $this->view->description = 'Explore the portfolio of Ebenezer Albidar Narh, an AI and full-stack software engineer building enterprise systems, web applications, and digital transformation solutions in Ghana.';
+        $this->view->url = 'https://www.dealbidar.com/';
+        $this->view->canonical = 'https://www.dealbidar.com/';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
-        $this->view->author = 'W3 Multimedia Ghana Limited';
-        $this->view->keywords = 'dealbidar, Ebenezer Albidar Narh, Software Engineer, Web Developer, Mobile App Developer, Software Development, Programming, Responsive Design, UI/UX Design, Problem-Solving, Technology, Coding, Tech Stack, Client Projects, Optimization, Open Source, Testimonials, Blog, Freelance Developer, Contact Information, LinkedIn Profile';    
+        $this->view->author = 'Ebenezer Albidar Narh';
+        $this->view->keywords = 'Ebenezer Albidar Narh, AI engineer Ghana, full-stack developer Ghana, software engineer Ghana, enterprise systems developer, web developer Ghana, portfolio';
         $this->view->render('index/index');
     }
     

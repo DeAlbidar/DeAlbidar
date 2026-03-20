@@ -1,98 +1,106 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <head> 
-        <base href="<?= (isset($this->url)) ? $this->url : 'https://www.dealbidar.com/' ?>" />        
-        <meta charset="UTF-8"> 
+<?php
+$defaultTitle = 'Ebenezer Albidar Narh | AI and Full-Stack Software Engineer in Ghana';
+$defaultDescription = 'Ebenezer Albidar Narh is an AI and full-stack software engineer in Ghana building secure web platforms, enterprise systems, and digital transformation solutions.';
+$defaultImage = URL . 'public/assets/images/bg/bg-image-11.jpg';
+$canonicalUrl = isset($this->canonical) ? $this->canonical : (isset($this->url) ? $this->url : URL);
+
+if ($canonicalUrl === URL . 'index') {
+    $canonicalUrl = URL;
+}
+
+$metaTitle = htmlspecialchars(isset($this->title) ? $this->title : $defaultTitle, ENT_QUOTES, 'UTF-8');
+$metaDescription = htmlspecialchars(isset($this->description) ? $this->description : $defaultDescription, ENT_QUOTES, 'UTF-8');
+$metaKeywords = htmlspecialchars(isset($this->keywords) ? $this->keywords : 'Ebenezer Albidar Narh, software engineer Ghana, full-stack developer Ghana, AI engineer Ghana, enterprise systems developer', ENT_QUOTES, 'UTF-8');
+$metaAuthor = htmlspecialchars(isset($this->author) ? $this->author : 'Ebenezer Albidar Narh', ENT_QUOTES, 'UTF-8');
+$metaImage = htmlspecialchars(isset($this->image) ? $this->image : $defaultImage, ENT_QUOTES, 'UTF-8');
+$metaRobots = htmlspecialchars(isset($this->robots) ? $this->robots : 'index,follow,max-image-preview:large', ENT_QUOTES, 'UTF-8');
+$metaCanonical = htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8');
+
+$structuredData = [
+    [
+        '@context' => 'https://schema.org',
+        '@type' => 'WebSite',
+        'name' => 'Ebenezer Albidar Narh',
+        'url' => URL,
+        'inLanguage' => 'en',
+        'description' => html_entity_decode($metaDescription, ENT_QUOTES, 'UTF-8')
+    ],
+    [
+        '@context' => 'https://schema.org',
+        '@type' => 'Person',
+        'name' => 'Ebenezer Albidar Narh',
+        'url' => URL,
+        'image' => html_entity_decode($metaImage, ENT_QUOTES, 'UTF-8'),
+        'jobTitle' => 'AI and Full-Stack Software Engineer',
+        'worksFor' => [
+            '@type' => 'Organization',
+            'name' => 'InnInk Limited'
+        ],
+        'sameAs' => [
+            'https://www.facebook.com/dealbidar',
+            'https://instagram.com/dealbidar',
+            'https://www.linkedin.com/in/dealbidar',
+            'https://twitter.com/dealbidar'
+        ]
+    ],
+    [
+        '@context' => 'https://schema.org',
+        '@type' => 'WebPage',
+        'name' => html_entity_decode($metaTitle, ENT_QUOTES, 'UTF-8'),
+        'url' => $canonicalUrl,
+        'description' => html_entity_decode($metaDescription, ENT_QUOTES, 'UTF-8')
+    ]
+];
+
+if (!empty($this->structuredData) && is_array($this->structuredData)) {
+    $structuredData = array_merge($structuredData, $this->structuredData);
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href="<?= htmlspecialchars(URL, ENT_QUOTES, 'UTF-8') ?>" />
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="robots" content="index, follow, all" />
-        <title><?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?></title>
-        <meta name="description" content="<?= (isset($this->description)) ? $this->description : '' ?>"> 
-        <meta name="title" content="<?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?>"> 
-        <meta name="keywords" content="<?= (isset($this->keywords)) ? $this->keywords : '' ?>" />
-        <!-- Mobile Metas -->         
-        <meta name="author" content="<?= (isset($this->author)) ? $this->author : 'Ebenezer Albidar Narh | dealbidar.com' ?>" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@dealbidar" />
-        <meta name="twitter:creator" content="@W3 Multimedia Ghana Limited" />
-        <meta property="og:site_name"   content="dealbidar" />
-        <meta property="fb:pages" content="1270250933001043" />
-        <meta property="fb:admins" content="1353719048088166">
-        <meta property="article:publisher" content="https://www.facebook.com/dealbidar" />
-        <meta property="og:type"          content="article" />
-        <meta property="og:image:type"   content="image/jpeg" />
-        <meta property="og:image:type"   content="image/png" />
-        <meta property="og:image:type"   content="image/gif" />
-        <meta property="og:image:width"   content="1200px" />
-        <meta property="og:image:height"   content="630px" />
-        <meta content='yes' name='mobile-web-app-capable'/>
-        <meta content='yes' name='apple-mobile-web-app-capable'/>
-        <meta content='#395697' name='apple-mobile-web-app-status-bar-style'/>
-        <meta content='WatchGhana Official' name='application-name'/>
-        <meta content='WatchGhana Official' name='msapplication-tooltip'/>
-        <meta content='WatchGhana Official' name='apple-mobile-web-app-title'/>
-        <meta content='WatchGhana Official' property='og:site_name'/>
-        <meta content='en_US' property='og:locale'/>
-        <meta content='article' property='og:type'/>
-        <meta name="robots" content="index, follow">
-        <meta name="revisit-after" content="7 days">
-        <meta content="<?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?>" name='twitter:title' property='og:title'/>
-        <meta content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg' ?>" name='twitter:image' property='og:image'/>
-        <meta content="<?= (isset($this->description)) ? $this->description : 'Welcome | dealbidar.com' ?>" name='twitter:description' property='og:description'/>
-        <meta content="https://web.facebook.com/dealbidar/" property='article:author'/>
-        <meta property="og:video" content="<?= (isset($this->meta_video)) ? $this->meta_video : 'https://www.youtube.com/watch?v=Vc3qvxm9E90' ?>" />
-        <meta name="keywords" content="<?= (isset($this->keywords)) ? $this->keywords : 'W3 Multimedia Ghana Limited' ?>" />
-        <meta name="description" content="<?= (isset($this->description)) ? $this->description : 'Welcome | dealbidar.com' ?>" />
-        <meta property="og:url"  content="<?= (isset($this->url)) ? $this->url : 'https://www.dealbidar.com/index' ?>" />
-        <meta property="og:title" content="<?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?>" />
-        <meta property="og:description" content="<?= (isset($this->description)) ? $this->description : '' ?>" />
-        <meta property="og:image" content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/metatag.png' ?>" />
-        <meta name="mobile-web-app-capable" content="yes">
-        <!-- Favicon -->         
-        <link rel="shortcut icon" type="image/x-icon" href="<?php echo URL . 'public/assets/images/favicon.ico' ?>">
+        <title><?= $metaTitle ?></title>
+        <meta name="description" content="<?= $metaDescription ?>">
+        <meta name="keywords" content="<?= $metaKeywords ?>">
+        <meta name="author" content="<?= $metaAuthor ?>">
+        <meta name="robots" content="<?= $metaRobots ?>">
+        <meta name="theme-color" content="#0f172a">
+        <link rel="canonical" href="<?= $metaCanonical ?>">
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="<?= htmlspecialchars(URL . 'sitemap', ENT_QUOTES, 'UTF-8') ?>">
+        <link rel="shortcut icon" type="image/x-icon" href="<?= htmlspecialchars(URL . 'public/assets/images/favicon.ico', ENT_QUOTES, 'UTF-8') ?>">
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="Ebenezer Albidar Narh">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="<?= $metaCanonical ?>">
+        <meta property="og:title" content="<?= $metaTitle ?>">
+        <meta property="og:description" content="<?= $metaDescription ?>">
+        <meta property="og:image" content="<?= $metaImage ?>">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@dealbidar">
+        <meta name="twitter:creator" content="@dealbidar">
+        <meta name="twitter:title" content="<?= $metaTitle ?>">
+        <meta name="twitter:description" content="<?= $metaDescription ?>">
+        <meta name="twitter:image" content="<?= $metaImage ?>">
 
         <?php
         if (isset($this->css)) {
             foreach ($this->css as $css) {
-                echo '<link href="' . URL . $css . '" rel="stylesheet" />';
+                echo '<link href="' . htmlspecialchars(URL . $css, ENT_QUOTES, 'UTF-8') . '" rel="stylesheet" />';
             }
         }
         ?>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-
-        <script type="application/ld+json">
-            {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "name": "Ebenezer Albidar Narh",
-            "logo": "https://www.dealbidar.com/public/assets/images/logo/logo-07.png",
-            "image": "https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg",
-            "url": "https://www.dealbidar.com",
-            "contactPoint": [{
-            "@type": "ContactPoint",
-            "telephone": "+233-244-285-651",
-            "contactType": "customer service"
-            }],
-            "sameAs": [
-            "https://www.facebook.com/dealbidar",
-            "https://instagram.com/dealbidar",
-            "https://www.linkedin.com/in/dealbidar",
-            "https://twitter.com/dealbidar"
-            ]
-            }
-        </script>
+        <script type="application/ld+json"><?= json_encode($structuredData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
+        <?php if (!empty($this->loadRecaptcha)) { ?>
         <script src="https://www.google.com/recaptcha/api.js?render=6Ld1XjoiAAAAAAHIxo7VpiLOSfzDXer_n-0hbzUM"></script>
-        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=633458e2c7599f001244b360&product=sop' async='async'></script>
+        <?php } ?>
     </head>
     <body class="white-version home-sticky spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@dealbidar" />
-        <meta name="twitter:creator" content="@W3 Multimedia Ghana Limited" />
-        <meta property="og:url" content="<?= (isset($this->url)) ? $this->url : 'https://www.dealbidar.com/index' ?>" />
-        <meta property="og:title" content="<?= (isset($this->title)) ? $this->title : 'Welcome | dealbidar.com' ?>" />
-        <meta property="og:description" content="<?= (isset($this->description)) ? $this->description : ' ' ?>" />
-        <meta property="og:image" content="<?= (isset($this->image)) ? $this->image : 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg' ?>" />
-        <meta property="og:video" content="<?= (isset($this->meta_video)) ? $this->meta_video : 'https://www.youtube.com/watch?v=Vc3qvxm9E90' ?>" />
-        

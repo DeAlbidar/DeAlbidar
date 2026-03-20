@@ -15,6 +15,11 @@ class View {
     public $author;
     public $description;
     public $keywords;
+    public $canonical;
+    public $robots;
+    public $imageAlt;
+    public $structuredData = array();
+    public $loadRecaptcha = false;
 
     function __construct() {
         //echo 'This is the view';
