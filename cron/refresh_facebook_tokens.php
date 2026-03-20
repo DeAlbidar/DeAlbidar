@@ -120,7 +120,8 @@ class FacebookTokenRefresher {
 }
 
 function updateConfiguredPageTokens($pages) {
-    $configFile = dirname(__DIR__) . '/facebook_pages.php';
+    $localConfigFile = dirname(__DIR__) . '/facebook_pages.local.php';
+    $configFile = file_exists($localConfigFile) ? $localConfigFile : dirname(__DIR__) . '/facebook_pages.php';
     $contents = file_get_contents($configFile);
 
     if ($contents === false) {

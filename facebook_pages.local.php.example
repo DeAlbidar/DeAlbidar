@@ -1,17 +1,11 @@
 <?php
 
-require_once __DIR__ . '/libs/FacebookPageConfig.php';
-
-if (file_exists(__DIR__ . '/facebook_pages.local.php')) {
-    require_once __DIR__ . '/facebook_pages.local.php';
-}
-
 if (!defined('FACEBOOK_APP_ID')) {
-    define('FACEBOOK_APP_ID', '');
+    define('FACEBOOK_APP_ID', 'YOUR_APP_ID');
 }
 
 if (!defined('FACEBOOK_APP_SECRET')) {
-    define('FACEBOOK_APP_SECRET', '');
+    define('FACEBOOK_APP_SECRET', 'YOUR_APP_SECRET');
 }
 
 if (!defined('FACEBOOK_DEFAULT_PAGE_KEY')) {
@@ -22,15 +16,15 @@ if (!defined('FACEBOOK_PAGE_TARGETS')) {
     define('FACEBOOK_PAGE_TARGETS', [
         'innink_limited' => [
             'label' => 'InnInk Limited',
-            'page_id' => '',
-            'access_token' => '',
+            'page_id' => 'YOUR_PAGE_ID',
+            'access_token' => 'YOUR_PAGE_ACCESS_TOKEN',
             'default_category' => 'tech_ai',
             'posts_per_day' => 1
         ],
         'ebenezer_albidar_narh' => [
             'label' => 'Ebenezer Albidar Narh',
-            'page_id' => '',
-            'access_token' => '',
+            'page_id' => 'YOUR_OTHER_PAGE_ID',
+            'access_token' => 'YOUR_OTHER_PAGE_ACCESS_TOKEN',
             'default_category' => [
                 'tech_ai',
                 'motivational_content',
@@ -41,16 +35,6 @@ if (!defined('FACEBOOK_PAGE_TARGETS')) {
             'posts_per_day' => 1
         ]
     ]);
-}
-
-$defaultFacebookPage = getFacebookPageConfig(FACEBOOK_DEFAULT_PAGE_KEY);
-
-if (!defined('FACEBOOK_PAGE_ID')) {
-    define('FACEBOOK_PAGE_ID', $defaultFacebookPage['page_id']);
-}
-
-if (!defined('FACEBOOK_ACCESS_TOKEN')) {
-    define('FACEBOOK_ACCESS_TOKEN', $defaultFacebookPage['access_token']);
 }
 
 ?>
