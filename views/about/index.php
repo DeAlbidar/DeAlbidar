@@ -12,29 +12,29 @@
                     <h2>Professional Biography</h2>
 
                     <p>
-                        With over 7 years of experience as a Full-Stack Software Engineer, I have dedicated my career 
-                        to designing and delivering secure, scalable digital solutions that create measurable business 
-                        and institutional impact. My professional journey began at W3 Multimedia Ghana Ltd, where I built 
-                        a strong foundation in full-stack development, developing custom web applications and enterprise-grade 
-                        systems for diverse clients. I later transitioned into healthcare technology at Holy Trinity Medical Centre, 
+                        With over 7 years of experience as a Full-Stack Software Engineer, I have dedicated my career
+                        to designing and delivering secure, scalable digital solutions that create measurable business
+                        and institutional impact. My professional journey began at W3 Multimedia Ghana Ltd, where I built
+                        a strong foundation in full-stack development, developing custom web applications and enterprise-grade
+                        systems for diverse clients. I later transitioned into healthcare technology at Holy Trinity Medical Centre,
                         improving digital interfaces and supporting secure, user-centered healthcare systems.
                     </p>
 
                     <p>
-                        Currently, I am engaged with the 
-                        <strong>United Nations Development Programme (UNDP) Ghana</strong>, 
-                        where I support enterprise IT operations and contribute to the development and maintenance of 
-                        internal systems that streamline finance, logistics, procurement, and human resource processes. 
-                        This role has significantly deepened my expertise in enterprise systems architecture, workflow automation, 
-                        compliance-driven development, cybersecurity awareness, and public-sector digital transformation.
+                        Between February and December 2025, I served as IT Support &amp; Software Systems Developer at the
+                        <strong>United Nations Development Programme (UNDP) Ghana</strong> Country Office, where I was the
+                        sole developer of six internal management platforms supporting finance, travel, logistics, and HR
+                        operations. That role deepened my expertise in enterprise systems architecture, workflow automation,
+                        compliance-driven development, cybersecurity awareness, and public-sector digital transformation —
+                        including contributing to UNICRI's "AI for Safer Children" platform migration.
                     </p>
 
                     <p>
-                        In addition to my institutional work, I am the Founder of 
-                        <strong>InnInk Limited</strong>, a technology-driven company focused on building practical and 
-                        scalable digital products that improve operational efficiency for businesses. Through InnInk, 
-                        I lead product strategy, system architecture design, backend engineering, and deployment strategy, 
-                        ensuring long-term maintainability and performance.
+                        Today, I lead <strong><a href="https://www.innink.co.uk" target="_blank" rel="noopener noreferrer">InnInk Limited</a></strong>,
+                        a technology-driven company I founded to build practical and scalable digital products that improve
+                        operational efficiency for businesses. Through InnInk, I own product strategy, system architecture
+                        design, backend engineering, and deployment strategy end to end, ensuring long-term maintainability
+                        and performance.
                     </p>
 
                     <p>
@@ -73,51 +73,61 @@
                 <div class="skill-category">
                     <h3><i class="fas fa-code"></i> Software Development</h3>
                     <ul class="skill-list">
-                        <li>JavaScript, TypeScript, PHP, Python, Java, C++</li>
-                        <li>Android Development (Java/C++)</li>
-                        <li>Full-stack Application Development</li>
+                        <li><span class="skill-pill">JavaScript</span></li>
+                        <li><span class="skill-pill">TypeScript</span></li>
+                        <li><span class="skill-pill">PHP</span></li>
+                        <li><span class="skill-pill">Python</span></li>
+                        <li><span class="skill-pill">Java</span></li>
+                        <li><span class="skill-pill">C++</span></li>
+                        <li><span class="skill-pill">Android (Java/C++)</span></li>
+                        <li><span class="skill-pill">Full-stack Application Development</span></li>
                     </ul>
                 </div>
-                
+
                 <!-- Frontend -->
                 <div class="skill-category">
                     <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
                     <ul class="skill-list">
-                        <li>React, Next.js, Node.js</li>
-                        <li>RESTful APIs</li>
-                        <li>Responsive UI Development</li>
+                        <li><span class="skill-pill">React</span></li>
+                        <li><span class="skill-pill">Next.js</span></li>
+                        <li><span class="skill-pill">Node.js</span></li>
+                        <li><span class="skill-pill">RESTful APIs</span></li>
+                        <li><span class="skill-pill">Responsive UI Development</span></li>
                     </ul>
                 </div>
-                
+
                 <!-- Backend & DevOps -->
                 <div class="skill-category">
                     <h3><i class="fas fa-server"></i> Backend & DevOps</h3>
                     <ul class="skill-list">
-                        <li>API Integration (JWT, OAuth2)</li>
-                        <li>MySQL, SQL Server, PostgreSQL</li>
-                        <li>Docker Containerization</li>
+                        <li><span class="skill-pill">JWT</span></li>
+                        <li><span class="skill-pill">OAuth2</span></li>
+                        <li><span class="skill-pill">MySQL</span></li>
+                        <li><span class="skill-pill">SQL Server</span></li>
+                        <li><span class="skill-pill">PostgreSQL</span></li>
+                        <li><span class="skill-pill">Docker</span></li>
                     </ul>
                 </div>
-                
+
                 <!-- AI & Automation -->
                 <div class="skill-category">
                     <h3><i class="fas fa-robot"></i> AI & Automation</h3>
                     <ul class="skill-list">
-                        <li>AI-assisted Document Processing</li>
-                        <li>NLP Fundamentals</li>
-                        <li>Data Analytics & Reporting</li>
-                        <li>Microsoft Power Platform</li>
+                        <li><span class="skill-pill">AI-assisted Document Processing</span></li>
+                        <li><span class="skill-pill">NLP Fundamentals</span></li>
+                        <li><span class="skill-pill">Data Analytics &amp; Reporting</span></li>
+                        <li><span class="skill-pill">Microsoft Power Platform</span></li>
                     </ul>
                 </div>
-                
+
                 <!-- Security -->
                 <div class="skill-category">
                     <h3><i class="fas fa-shield-alt"></i> Security</h3>
                     <ul class="skill-list">
-                        <li>HTTPS Communication</li>
-                        <li>XSS/CSRF Protection</li>
-                        <li>Role-based Access Control</li>
-                        <li>Audit Logging & Compliance</li>
+                        <li><span class="skill-pill">HTTPS</span></li>
+                        <li><span class="skill-pill">XSS/CSRF Protection</span></li>
+                        <li><span class="skill-pill">Role-based Access Control</span></li>
+                        <li><span class="skill-pill">Audit Logging &amp; Compliance</span></li>
                     </ul>
                 </div>
             </div>

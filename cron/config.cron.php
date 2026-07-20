@@ -4,15 +4,17 @@
  * Configure your Facebook API credentials here
  */
 
-// Facebook Graph API Configuration
-require_once dirname(__DIR__) . '/facebook_pages.php';
+// Main app configuration (loads Facebook Graph API config + the gitignored
+// config.local.php secrets — see config.local.php.example)
+require_once dirname(__DIR__) . '/config.php';
 
-// Database configuration
-define('CRON_DB_TYPE', 'mysql');
-define('CRON_DB_HOST', 'localhost');
-define('CRON_DB_NAME', 'w3multim_Albidar');
-define('CRON_DB_USER', 'w3multim_albidar');
-define('CRON_DB_PASS', 'U=U2tR*%&gs.');
+// Database configuration (reuses the credentials already resolved above,
+// instead of duplicating them here)
+define('CRON_DB_TYPE', DB_TYPE);
+define('CRON_DB_HOST', DB_HOST);
+define('CRON_DB_NAME', DB_NAME);
+define('CRON_DB_USER', DB_USER);
+define('CRON_DB_PASS', DB_PASS);
 
 // Logging configuration
 define('CRON_LOG_DIR', dirname(__FILE__) . '/logs/');

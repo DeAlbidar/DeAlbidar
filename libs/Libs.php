@@ -27,18 +27,22 @@ class Libs {
             //Server settings
             //$mail->SMTPDebug = 2;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
-            $mail->Host = 'mail.watchghana.com';  // Specify main and backup SMTP servers
+            $mail->Host = SMTP_HOST;                              // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'no-reply@watchghana.com';                 // SMTP username
-            $mail->Password = '<PAUSA0000>';                           // SMTP password
-            $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-            $mail->Port = 26;                                    // TCP port to connect to
+            $mail->Username = SMTP_USERNAME;                      // SMTP username
+            $mail->Password = SMTP_PASSWORD;                      // SMTP password
+            $mail->SMTPSecure = SMTP_SECURE;                      // Enable TLS encryption, `ssl` also accepted
+            $mail->Port = SMTP_PORT;                              // TCP port to connect to
             //Recipients
-            $mail->setFrom('no-reply@watchghana.com', 'WatchGhana.com');
+            $mail->setFrom(SMTP_FROM_EMAIL, SMTP_FROM_NAME);
             $mail->addAddress($recipient, $recipient_name);     // Add a recipient
-            $mail->addReplyTo('no-reply@watchghana.com', 'No Reply');
-            $mail->addCC('cc@watchghana.com');
-            $mail->addBCC('bcc@watchghana.com');
+            $mail->addReplyTo(SMTP_FROM_EMAIL, 'No Reply');
+            if (SMTP_CC !== '') {
+                $mail->addCC(SMTP_CC);
+            }
+            if (SMTP_BCC !== '') {
+                $mail->addBCC(SMTP_BCC);
+            }
 
             //Attachments
             //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments

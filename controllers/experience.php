@@ -20,12 +20,12 @@ class Experience extends Controller{
     
     function index(){
         $this->view->title = 'Professional Experience | Ebenezer Albidar Narh';
-        $this->view->description = 'Review the professional experience of Ebenezer Albidar Narh across enterprise IT, software engineering, healthcare technology, and public-sector digital transformation.';
+        $this->view->description = 'Professional experience of Ebenezer Albidar Narh — Founder of InnInk Limited, with prior enterprise IT and software development experience at UNDP Ghana and UNICRI.';
         $this->view->url = 'https://www.dealbidar.com/experience';
         $this->view->canonical = 'https://www.dealbidar.com/experience';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'Ebenezer Albidar Narh';
-        $this->view->keywords = 'software engineer experience Ghana, enterprise IT experience, UNDP Ghana technology, Ebenezer Albidar Narh experience';
+        $this->view->keywords = 'software engineer experience Ghana, InnInk Limited, UNDP Ghana experience, UNICRI, enterprise IT experience, Ebenezer Albidar Narh experience';
         $this->view->render('experience/index');
     }
     

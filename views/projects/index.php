@@ -13,6 +13,7 @@
                     <div class="project-icon">
                         <i class="fas fa-book-open"></i>
                     </div>
+                    <span class="project-badge"><i class="fas fa-rocket"></i> InnInk Limited</span>
                     <h3>Big Book – Inventory & Stock Management System</h3>
                     <p class="project-tech">PHP, MySQL, REST APIs, JavaScript, HTML5, CSS3, Android (Java)</p>
 
@@ -35,6 +36,7 @@
                     <div class="project-icon">
                         <i class="fas fa-building"></i>
                     </div>
+                    <span class="project-badge project-badge-un"><i class="fas fa-landmark"></i> UNDP Ghana</span>
                     <h3>Enterprise Management Systems</h3>
                     <p class="project-tech">PHP, MySQL, JavaScript, REST APIs</p>
                     <p class="project-description">
@@ -50,6 +52,7 @@
                     <div class="project-icon">
                         <i class="fas fa-plane"></i>
                     </div>
+                    <span class="project-badge project-badge-un"><i class="fas fa-landmark"></i> UNDP Ghana</span>
                     <h3>Pre-Travel Management System</h3>
                     <p class="project-tech">Power Apps, Power Automate, SharePoint</p>
                     <p class="project-description">
@@ -65,6 +68,7 @@
                     <div class="project-icon">
                         <i class="fas fa-coins"></i>
                     </div>
+                    <span class="project-badge project-badge-un"><i class="fas fa-landmark"></i> UNDP Ghana</span>
                     <h3>Petty Cash Management System</h3>
                     <p class="project-tech">Power Apps, Power Automate, SharePoint</p>
                     <p class="project-description">
@@ -80,6 +84,7 @@
                     <div class="project-icon">
                         <i class="fas fa-tasks"></i>
                     </div>
+                    <span class="project-badge project-badge-un"><i class="fas fa-landmark"></i> UNDP Ghana</span>
                     <h3>Workload Management Platform</h3>
                     <p class="project-tech">Power Apps, Power Automate, SharePoint</p>
                     <p class="project-description">
@@ -95,6 +100,7 @@
                     <div class="project-icon">
                         <i class="fas fa-car"></i>
                     </div>
+                    <span class="project-badge project-badge-un"><i class="fas fa-landmark"></i> UNDP Ghana</span>
                     <h3>Vehicle & Travel Request System</h3>
                     <p class="project-tech">Power Apps, Power Automate, SharePoint</p>
                     <p class="project-description">
@@ -125,6 +131,7 @@
                     <div class="project-icon">
                         <i class="fas fa-comments"></i>
                     </div>
+                    <span class="project-badge project-badge-un"><i class="fas fa-landmark"></i> UNDP Ghana</span>
                     <h3>Internal Communication Tools</h3>
                     <p class="project-tech">PHP, WebSockets, MySQL</p>
                     <p class="project-description">

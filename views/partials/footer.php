@@ -4,6 +4,7 @@
         <div class="footer-content">
             <div class="footer-info">
                 <p>&copy; <?php echo date('Y'); ?> Ebenezer Albidar Narh. All rights reserved.</p>
+                <p class="footer-tagline">Founder, <a href="https://www.innink.co.uk" target="_blank" rel="noopener noreferrer">InnInk Limited</a></p>
             </div>
             <div class="footer-social">
                 <a href="https://github.com/DeAlbidar" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
@@ -51,5 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+<script src="https://widget.vyxelon.com/widget.js" data-tenant="c92e22d37c61d65e22ff43744bdee75e" defer></script>
 </body>
 </html>

@@ -20,12 +20,12 @@ class Download_Cv extends Controller{
     
     function index(){
         $this->view->title = 'Download CV | Ebenezer Albidar Narh';
-        $this->view->description = 'Download the CV of Ebenezer Albidar Narh, AI and full-stack software engineer with experience in enterprise systems, digital transformation, and web application development.';
+        $this->view->description = 'Download the CV of Ebenezer Albidar Narh, Founder of InnInk Limited and full-stack/AI software engineer with UN and enterprise systems experience.';
         $this->view->url = 'https://www.dealbidar.com/download_cv';
         $this->view->canonical = 'https://www.dealbidar.com/download_cv';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'Ebenezer Albidar Narh';
-        $this->view->keywords = 'download CV Ebenezer Albidar Narh, software engineer resume Ghana, full-stack developer CV';
+        $this->view->keywords = 'download CV Ebenezer Albidar Narh, InnInk Limited founder resume, software engineer resume Ghana, full-stack developer CV';
         $this->view->render('download/index');
     }
     

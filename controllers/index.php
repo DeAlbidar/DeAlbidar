@@ -19,13 +19,13 @@ class Index extends Controller{
     }
     
     function index(){
-        $this->view->title = 'Ebenezer Albidar Narh | AI and Full-Stack Software Engineer in Ghana';
-        $this->view->description = 'Explore the portfolio of Ebenezer Albidar Narh, an AI and full-stack software engineer building enterprise systems, web applications, and digital transformation solutions in Ghana.';
+        $this->view->title = 'Ebenezer Albidar Narh | Founder, InnInk Limited & Full-Stack Engineer';
+        $this->view->description = 'Portfolio of Ebenezer Albidar Narh, Founder of InnInk Limited — a full-stack and AI software engineer with UN (UNDP Ghana) and enterprise systems experience.';
         $this->view->url = 'https://www.dealbidar.com/';
         $this->view->canonical = 'https://www.dealbidar.com/';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'Ebenezer Albidar Narh';
-        $this->view->keywords = 'Ebenezer Albidar Narh, AI engineer Ghana, full-stack developer Ghana, software engineer Ghana, enterprise systems developer, web developer Ghana, portfolio';
+        $this->view->keywords = 'Ebenezer Albidar Narh, InnInk Limited, Founder software engineer Ghana, AI engineer Ghana, full-stack developer Ghana, UNDP Ghana developer, enterprise systems developer, portfolio';
         $this->view->render('index/index');
     }
     
@@ -41,7 +41,7 @@ class Index extends Controller{
             echo '<a href="javascript:history.go(-1)" title="Return to the previous page">&laquo; Go back</a>';
             exit;
         } else {
-            $secret = '6Ld1XjoiAAAAAINqNzl4M7lTjESeWXr7cqvx8KSZ';
+            $secret = RECAPTCHA_SECRET_KEY;
             $response = file_get_contents(
                     "https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $captcha . "&remoteip=" . $_SERVER['REMOTE_ADDR']
             );

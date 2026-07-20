@@ -1,6 +1,6 @@
 <?php
-$defaultTitle = 'Ebenezer Albidar Narh | AI and Full-Stack Software Engineer in Ghana';
-$defaultDescription = 'Ebenezer Albidar Narh is an AI and full-stack software engineer in Ghana building secure web platforms, enterprise systems, and digital transformation solutions.';
+$defaultTitle = 'Ebenezer Albidar Narh | Founder, InnInk Limited & Full-Stack Engineer';
+$defaultDescription = 'Ebenezer Albidar Narh is the Founder of InnInk Limited and a full-stack/AI software engineer with UN (UNDP Ghana) and enterprise systems experience.';
 $defaultImage = URL . 'public/assets/images/bg/bg-image-11.jpg';
 $canonicalUrl = isset($this->canonical) ? $this->canonical : (isset($this->url) ? $this->url : URL);
 
@@ -31,10 +31,11 @@ $structuredData = [
         'name' => 'Ebenezer Albidar Narh',
         'url' => URL,
         'image' => html_entity_decode($metaImage, ENT_QUOTES, 'UTF-8'),
-        'jobTitle' => 'AI and Full-Stack Software Engineer',
+        'jobTitle' => 'Founder & Full-Stack / AI Software Engineer',
         'worksFor' => [
             '@type' => 'Organization',
-            'name' => 'InnInk Limited'
+            'name' => 'InnInk Limited',
+            'url' => 'https://www.innink.co.uk'
         ],
         'sameAs' => [
             'https://www.facebook.com/dealbidar',
@@ -97,6 +98,9 @@ if (!empty($this->structuredData) && is_array($this->structuredData)) {
             }
         }
         ?>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <script type="application/ld+json"><?= json_encode($structuredData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
         <?php if (!empty($this->loadRecaptcha)) { ?>

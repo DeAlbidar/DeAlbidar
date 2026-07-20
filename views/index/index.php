@@ -1,16 +1,22 @@
 <main>
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-blob" aria-hidden="true"></div>
         <div class="container">
             <div class="hero-content">
+                <div class="hero-badges">
+                    <span class="badge-chip"><i class="fas fa-rocket"></i> Founder, InnInk Limited</span>
+                    <span class="badge-chip"><i class="fas fa-globe"></i> UN &amp; Public Sector Systems Experience</span>
+                </div>
                 <h1 class="hero-title">
                     Ebenezer Albidar Narh
-                    <span class="hero-subtitle">AI / Full-Stack Software Engineer</span>
+                    <span class="hero-subtitle">Founder &amp; Full-Stack / AI Software Engineer</span>
                 </h1>
                 <p class="hero-description">
-                    Public Sector & Enterprise Systems Specialist with <span class="highlight">7+ years</span> of experience.
-                    Currently engaged with <span class="highlight">UNDP Ghana</span> driving digital transformation 
-                    through AI-assisted systems and enterprise solutions.
+                    I build secure, scalable digital products as Founder of <span class="highlight">InnInk Limited</span>,
+                    backed by <span class="highlight">7+ years</span> of full-stack engineering and enterprise systems
+                    experience — including delivering internal management platforms within a
+                    <span class="highlight">United Nations (UNDP Ghana)</span> country office environment.
                 </p>
                 <div class="hero-cta">
                     <a href="<?php echo URL.'download_cv'; ?>" class="btn btn-primary btn-large">
@@ -32,20 +38,24 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-item">
+                    <i class="fas fa-calendar-check stat-icon"></i>
                     <div class="stat-number">7+</div>
                     <div class="stat-label">Years Experience</div>
                 </div>
                 <div class="stat-item">
+                    <i class="fas fa-diagram-project stat-icon"></i>
                     <div class="stat-number">20+</div>
                     <div class="stat-label">Projects Delivered</div>
                 </div>
                 <div class="stat-item">
+                    <i class="fas fa-server stat-icon"></i>
                     <div class="stat-number">10+</div>
                     <div class="stat-label">Enterprise Systems</div>
                 </div>
                 <div class="stat-item">
+                    <i class="fas fa-landmark stat-icon"></i>
                     <div class="stat-number">UN</div>
-                    <div class="stat-label">UNDP Engagement</div>
+                    <div class="stat-label">UN &amp; Public Sector Experience</div>
                 </div>
             </div>
         </div>

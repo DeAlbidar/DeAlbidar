@@ -19,13 +19,13 @@ class Contact extends Controller{
     }
     
     function index(){
-        $this->view->title = 'Contact Ebenezer Albidar Narh | Software Engineering and AI Consulting';
-        $this->view->description = 'Contact Ebenezer Albidar Narh for software engineering, enterprise systems, AI-assisted development, and digital transformation consulting in Ghana and beyond.';
+        $this->view->title = 'Contact Ebenezer Albidar Narh | Founder, InnInk Limited';
+        $this->view->description = 'Contact Ebenezer Albidar Narh, Founder of InnInk Limited, for software engineering, enterprise systems, and AI-assisted development consulting in Ghana and beyond.';
         $this->view->url = 'https://www.dealbidar.com/contact';
         $this->view->canonical = 'https://www.dealbidar.com/contact';
         $this->view->image = 'https://www.dealbidar.com/public/assets/images/bg/bg-image-11.jpg';
         $this->view->author = 'Ebenezer Albidar Narh';
-        $this->view->keywords = 'contact software engineer Ghana, hire full-stack developer Ghana, AI consultant Ghana, contact Ebenezer Albidar Narh';
+        $this->view->keywords = 'contact software engineer Ghana, InnInk Limited contact, hire full-stack developer Ghana, AI consultant Ghana, contact Ebenezer Albidar Narh';
         $this->view->loadRecaptcha = true;
         $this->view->render('contact/index');
     }

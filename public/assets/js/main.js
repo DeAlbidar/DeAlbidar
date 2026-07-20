@@ -126,40 +126,36 @@ navLinks.forEach(link => {
     }
 });
 
-// Intersection Observer for fade-in animations
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-};
-
-const observer = new IntersectionObserver((entries) => {
+// Scroll-reveal animations (adds .reveal, toggles .in-view on intersect;
+// styling/transition lives in the .reveal / .reveal.in-view CSS rules)
+const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            entry.target.classList.add('in-view');
+            revealObserver.unobserve(entry.target);
         }
     });
-}, observerOptions);
-
-// Observe elements for animation
-document.querySelectorAll('.skill-category, .project-card, .timeline-item, .education-card').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    observer.observe(el);
+}, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
 });
 
-// Sticky navigation background on scroll
-window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 100) {
-        navbar.style.backgroundColor = 'var(--bg-light)';
-        navbar.style.boxShadow = 'var(--shadow-md)';
-    } else {
-        navbar.style.backgroundColor = 'var(--bg-light)';
-        navbar.style.boxShadow = 'var(--shadow-sm)';
-    }
+document.querySelectorAll(
+    '.skill-category, .project-card, .timeline-item, .education-card, .stat-item, .testimonial-card'
+).forEach(el => {
+    el.classList.add('reveal');
+    revealObserver.observe(el);
 });
+
+// Glass/blur navbar state on scroll
+const navbarEl = document.querySelector('.navbar');
+if (navbarEl) {
+    const toggleNavbarScrolled = () => {
+        navbarEl.classList.toggle('scrolled', window.scrollY > 40);
+    };
+    toggleNavbarScrolled();
+    window.addEventListener('scroll', toggleNavbarScrolled);
+}
 
 // Download CV tracking
 const downloadBtn = document.querySelector('.btn-primary[href*="download"]');

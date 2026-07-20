@@ -66,7 +66,7 @@ class Bootstrap {
      * Fetches the $_GET from 'url'
      */
     private function _getUrl() {
-        $url = isset($_GET['url']) ? $_GET['url'] : null;
+        $url = isset($_GET['url']) ? $_GET['url'] : '';
         $url = rtrim($url, '/');
         $url = filter_var($url, FILTER_SANITIZE_URL);
         $this->_url = explode('/', $url);

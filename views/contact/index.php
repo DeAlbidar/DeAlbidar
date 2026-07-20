@@ -25,8 +25,8 @@
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h3>Phone</h3>
-                            <a href="tel:+233244285651">+233 24 428 5651</a>
+                            <h3>WhatsApp</h3>
+                            <a href="https://wa.me/233538196810">+233 53 819 6810</a>
                         </div>
                     </div>
                     
@@ -45,7 +45,15 @@
                             <a href="https://github.com/DeAlbidar" target="_blank">github.com/DeAlbidar</a>
                         </div>
                     </div>
-                    
+
+                    <div class="info-item">
+                        <i class="fas fa-rocket"></i>
+                        <div>
+                            <h3>InnInk Limited</h3>
+                            <a href="https://www.innink.co.uk" target="_blank" rel="noopener noreferrer">www.innink.co.uk</a>
+                        </div>
+                    </div>
+
                     <div class="info-item">
                         <i class="fas fa-globe"></i>
                         <div>

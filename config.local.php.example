@@ -1,0 +1,67 @@
+<?php
+
+if (!defined('DB_HOST')) {
+    define('DB_HOST', 'YOUR_DB_HOST');
+}
+
+if (!defined('DB_NAME')) {
+    define('DB_NAME', 'YOUR_DB_NAME');
+}
+
+if (!defined('DB_USER')) {
+    define('DB_USER', 'YOUR_DB_USER');
+}
+
+if (!defined('DB_PASS')) {
+    define('DB_PASS', 'YOUR_DB_PASSWORD');
+}
+
+if (!defined('HASH_GENERAL_KEY')) {
+    define('HASH_GENERAL_KEY', 'YOUR_GENERAL_HASH_KEY');
+}
+
+if (!defined('HASH_PASSWORD_KEY')) {
+    define('HASH_PASSWORD_KEY', 'YOUR_PASSWORD_HASH_KEY');
+}
+
+if (!defined('RECAPTCHA_SECRET_KEY')) {
+    define('RECAPTCHA_SECRET_KEY', 'YOUR_RECAPTCHA_SECRET_KEY');
+}
+
+if (!defined('SMTP_HOST')) {
+    define('SMTP_HOST', 'YOUR_SMTP_HOST');
+}
+
+if (!defined('SMTP_USERNAME')) {
+    define('SMTP_USERNAME', 'YOUR_SMTP_USERNAME');
+}
+
+if (!defined('SMTP_PASSWORD')) {
+    define('SMTP_PASSWORD', 'YOUR_SMTP_PASSWORD');
+}
+
+if (!defined('SMTP_PORT')) {
+    define('SMTP_PORT', 587);
+}
+
+if (!defined('SMTP_SECURE')) {
+    define('SMTP_SECURE', 'tls');
+}
+
+if (!defined('SMTP_FROM_EMAIL')) {
+    define('SMTP_FROM_EMAIL', 'YOUR_FROM_EMAIL');
+}
+
+if (!defined('SMTP_FROM_NAME')) {
+    define('SMTP_FROM_NAME', 'YOUR_FROM_NAME');
+}
+
+if (!defined('SMTP_CC')) {
+    define('SMTP_CC', '');
+}
+
+if (!defined('SMTP_BCC')) {
+    define('SMTP_BCC', '');
+}
+
+?>

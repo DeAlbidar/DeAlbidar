@@ -7,21 +7,37 @@
 
     <section class="timeline">
         <div class="container">
-            <!-- UNDP Ghana - Current -->
+            <!-- InnInk Limited - Current -->
             <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2025 - Present</div>
+                <div class="timeline-dot"><i class="fas fa-rocket"></i></div>
+                <div class="timeline-date">Ongoing</div>
+                <div class="timeline-content">
+                    <h3>Founder &amp; Full-Stack Software Engineer</h3>
+                    <h4><a href="https://www.innink.co.uk" target="_blank" rel="noopener noreferrer">InnInk Limited</a></h4>
+                    <ul class="timeline-list">
+                        <li>Own product strategy, system architecture, backend engineering, and deployment for InnInk's product line</li>
+                        <li>Built and maintain <strong>Big Book</strong>, a full-stack inventory &amp; stock management system (web + Android)</li>
+                        <li>Design secure, scalable REST APIs and role-based access control for client-facing products</li>
+                        <li>Manage the full product lifecycle: requirements, architecture, development, deployment, and support</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- UNDP Ghana -->
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class="fas fa-landmark"></i></div>
+                <div class="timeline-date">Feb 2025 - Dec 2025</div>
                 <div class="timeline-content">
                     <h3>IT Support / Software & Systems Developer</h3>
                     <h4>United Nations Development Programme (UNDP) - Ghana</h4>
                     <ul class="timeline-list">
-                        <li>Provide enterprise-level IT and application support within UN country office environment</li>
-                        <li>Design and develop internal web-based systems for finance, logistics, travel, and HR operations</li>
-                        <li>Automate business processes using Power Automate, SharePoint, Power Apps, and Microsoft Forms</li>
-                        <li>Implement API integrations, access controls, authentication mechanisms, and activity logging</li>
-                        <li>Maintain IT asset inventories and device custody records for audit compliance</li>
+                        <li>Provided enterprise-level IT and application support within a UN country office environment</li>
+                        <li>Sole developer of 6 internal web-based systems for finance, logistics, travel, and HR operations</li>
+                        <li>Automated business processes using Power Automate, SharePoint, Power Apps, and Microsoft Forms</li>
+                        <li>Implemented API integrations, access controls, authentication mechanisms, and activity logging</li>
+                        <li>Maintained IT asset inventories and device custody records for audit compliance</li>
                     </ul>
-                    
+
                     <h4>Systems Delivered:</h4>
                     <ul class="timeline-list">
                         <li>Pre-Travel Management System</li>
@@ -32,10 +48,10 @@
                     </ul>
                 </div>
             </div>
-            
+
             <!-- UNDP Ghana - National Service -->
             <div class="timeline-item">
-                <div class="timeline-dot"></div>
+                <div class="timeline-dot"><i class="fas fa-headset"></i></div>
                 <div class="timeline-date">2023 - 2024</div>
                 <div class="timeline-content">
                     <h3>National Service Personnel - IT Support</h3>
@@ -50,7 +66,7 @@
             
             <!-- Holy Trinity Medical Centre -->
             <div class="timeline-item">
-                <div class="timeline-dot"></div>
+                <div class="timeline-dot"><i class="fas fa-hospital"></i></div>
                 <div class="timeline-date">2022 - 2023</div>
                 <div class="timeline-content">
                     <h3>Front-End Web Developer</h3>
@@ -65,7 +81,7 @@
             
             <!-- W3 Multimedia Ghana Ltd -->
             <div class="timeline-item">
-                <div class="timeline-dot"></div>
+                <div class="timeline-dot"><i class="fas fa-code"></i></div>
                 <div class="timeline-date">2017 - 2022</div>
                 <div class="timeline-content">
                     <h3>Full-Stack Web Developer</h3>
